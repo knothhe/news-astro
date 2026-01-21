@@ -1,8 +1,12 @@
 ---
-title: "Daily News Report（2026-01-22）"
-date: "2026-01-22"
+title: Daily News Report（2026-01-22）
+pubDate: 2026-01-22
 description: "Today's curated high-quality tech news and insights"
-tags: ["daily-news", "tech", "AI", "development"]
+categories: 
+    - daily-news
+    - tech
+    - AI
+    - development
 draft: false
 ---
 
