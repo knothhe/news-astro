@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
+
+  "last_run": {
+    "date": "2026-01-22",
+    "duration_seconds": 180,
+    "items_collected": 20,
+    "items_published": 20,
+    "sources_used": ["hn", "hf_papers", "one_useful_thing", "paul_graham", "james_clear", "fs_blog", "hackernoon_pm", "scotthyoung"]
+  },
+
+  "source_stats": {
+    "_comment": "记录每个源的历史表现，用于动态调整优先级",
+    "hn": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 10,
+      "avg_quality_score": 4.2,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    },
+    "hf_papers": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 8,
+      "avg_quality_score": 4.5,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    },
+    "one_useful_thing": {
+      "total_fetches": 2,
+      "success_count": 1,
+      "avg_items_per_fetch": 0,
+      "avg_quality_score": 0,
+      "last_fetch": "2026-01-22",
+      "last_success": null
+    },
+    "paul_graham": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 2,
+      "avg_quality_score": 4.5,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    },
+    "james_clear": {
+      "total_fetches": 2,
+      "success_count": 1,
+      "avg_items_per_fetch": 0,
+      "avg_quality_score": 0,
+      "last_fetch": "2026-01-22",
+      "last_success": null
+    },
+    "fs_blog": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 2,
+      "avg_quality_score": 4.2,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    },
+    "hackernoon_pm": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 3,
+      "avg_quality_score": 4.0,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    },
+    "scotthyoung": {
+      "total_fetches": 2,
+      "success_count": 2,
+      "avg_items_per_fetch": 2,
+      "avg_quality_score": 4.2,
+      "last_fetch": "2026-01-22",
+      "last_success": "2026-01-22"
+    }
+  },
+
+  "url_cache": {
+    "_comment": "已处理的 URL 缓存，避免重复收录",
+    "_ttl_hours": 168,
+    "entries": {
+      "github.com/anthropics/original_performance_takehome": "2026-01-22",
+      "github.com/borenstein/yolo-cage": "2026-01-22",
+      "github.com/ChartGPU/ChartGPU": "2026-01-22",
+      "huggingface.co/papers/2601.12993": "2026-01-22",
+      "elliotarledge.com/blog/batmobile": "2026-01-22",
+      "etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html": "2026-01-22",
+      "github.com/mastra-ai/mastra": "2026-01-22",
+      "huggingface.co/papers/2601.14192": "2026-01-22",
+      "huggingface.co/papers/2601.13029": "2026-01-22",
+      "huggingface.co/papers/2601.14004": "2026-01-22",
+      "huggingface.co/papers/2601.11969": "2026-01-22",
+      "huggingface.co/papers/2601.14250": "2026-01-22",
+      "atlas9.dev/blog/soft-delete.html": "2026-01-22",
+      "snubi.net/posts/Show-HN/": "2026-01-22",
+      "paulgraham.com/change.html": "2026-01-22",
+      "paulgraham.com/greatwork.html": "2026-01-22",
+      "scotthyoung.com/blog/2015/03/25/permanent-habits/": "2026-01-22",
+      "hackernoon.com/ideaops-why-every-request-is-a-company-asset-in-product-development": "2026-01-22",
+      "hackernoon.com/why-good-products-feel-broken": "2026-01-22",
+      "scotthyoung.com/blog/2026/01/14/manage-energy-not-time/": "2026-01-22"
+    }
+  },
+
+  "content_hashes": {
+    "_comment": "内容指纹，用于去重",
+    "_ttl_hours": 168,
+    "entries": {}
+  },
+
+  "article_history": {
+    "_comment": "已收录文章的简要记录",
+    "2026-01-21": [],
+    "2026-01-22": [
+      "Anthropic take-home assignment",
+      "yolo-cage AI security",
+      "ChartGPU WebGPU visualization",
+      "Being-H0.5 robot learning",
+      "Batmobile CUDA acceleration",
+      "cURL bug bounty removal",
+      "Mastra 1.0 JS agent framework",
+      "Efficient Agents survey",
+      "Think3D spatial reasoning",
+      "Mechanistic interpretability",
+      "MemoryRewardBench",
+      "OmniTransfer video",
+      "Soft delete challenges",
+      "Show HN trends",
+      "Paul Graham on change",
+      "How to do great work",
+      "Habit meta-stability",
+      "IdeaOps product management",
+      "Good products feeling broken",
+      "Energy management"
+    ]
+  }
+}
