@@ -2,11 +2,16 @@
 
 set -e
 
-# Configuration
-PROJECT_DIR="/home/guanglai/github/news-astro"
+# Get script directory and set PROJECT_DIR dynamically
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 POSTS_DIR="${PROJECT_DIR}/src/content/posts"
 REPORT_DIR="${PROJECT_DIR}/NewsReport"
-OPENCODE_BIN="/home/guanglai/.opencode/bin/opencode"
+# Verify opencode is available
+if ! command -v opencode &> /dev/null; then
+    echo "ERROR: opencode command not found. Please install opencode first."
+    exit 1
+fi
 MAX_RETRIES=2
 RETRY_COUNT=0
 LOG_FILE="${PROJECT_DIR}/workflow.log"
@@ -37,7 +42,7 @@ generate_report() {
     
     # Run opencode with daily-news-report skill
     cd "$PROJECT_DIR"
-    $OPENCODE_BIN run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。" --print-logs
+    opencode run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。" --print-logs
     
     if check_today_report_exists; then
         log "Report generated successfully: ${POSTS_DIR}/$(get_today_date)-news-report.md"
