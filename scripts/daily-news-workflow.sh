@@ -37,7 +37,7 @@ generate_report() {
     
     # Run opencode with daily-news-report skill
     cd "$PROJECT_DIR"
-    $OPENCODE_BIN run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。" --agent daily-news-report --print-logs
+    $OPENCODE_BIN run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。" --print-logs
     
     if check_today_report_exists; then
         log "Report generated successfully: ${POSTS_DIR}/$(get_today_date)-news-report.md"
@@ -65,8 +65,8 @@ check_build() {
     
     cd "$PROJECT_DIR"
     
-    # Run typecheck to verify compilation
-    if pnpm typecheck > /dev/null 2>&1; then
+    # Run astro check to verify compilation
+    if pnpm astro check > /dev/null 2>&1; then
         log "Build check passed!"
         return 0
     else
