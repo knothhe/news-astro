@@ -86,8 +86,8 @@ commit_and_push() {
     
     cd "$PROJECT_DIR"
     
-    # Check if there are changes to commit
-    if git diff --quiet && git diff --cached --quiet; then
+    # Check if there are changes to commit (including untracked files)
+    if ! git status --porcelain | grep -q .; then
         log "No changes to commit."
         return 0
     fi
