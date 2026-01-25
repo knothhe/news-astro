@@ -2,11 +2,10 @@
 
 set -e
 
-CACHE_FILE="${PROJECT_DIR}/.agents/skills/daily-news-report/cache.json"
-
 # Get script directory and set PROJECT_DIR dynamically
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+CACHE_FILE="${PROJECT_DIR}/.agents/skills/daily-news-report/cache.json"
 POSTS_DIR="${PROJECT_DIR}/src/content/posts"
 REPORT_DIR="${PROJECT_DIR}/NewsReport"
 # Verify opencode is available
