@@ -2,6 +2,8 @@
 
 set -e
 
+CACHE_FILE="${PROJECT_DIR}/.agents/skills/daily-news-report/cache.json"
+
 # Get script directory and set PROJECT_DIR dynamically
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
@@ -19,6 +21,94 @@ LOG_FILE="${PROJECT_DIR}/workflow.log"
 # Logging function
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
+}
+
+# Check cache.json to avoid duplicate runs
+check_cache_for_today() {
+    local today=$(get_today_date)
+    if [ -f "$CACHE_FILE" ]; then
+        local last_run_date=$(grep -o '"date": *"[^"]*"' "$CACHE_FILE" | head -1 | sed 's/.*"date": *"\([^"]*\)".*/\1/')
+        if [ "$last_run_date" = "$today" ]; then
+            return 0  # already run today
+        fi
+    fi
+    return 1  # not run today or cache file missing
+}
+
+# Update cache.json after successful run
+update_cache() {
+    local today=$(get_today_date)
+    local report_file="${POSTS_DIR}/${today}-news-report.md"
+
+    if [ ! -f "$CACHE_FILE" ]; then
+        log "ERROR: Cache file not found: $CACHE_FILE"
+        return 1
+    fi
+
+    if [ ! -f "$report_file" ]; then
+        log "ERROR: Report file not found: $report_file"
+        return 1
+    fi
+
+    cd "$PROJECT_DIR"
+    if command -v node &> /dev/null; then
+        node -e "
+            const fs = require('fs');
+            const cache = JSON.parse(fs.readFileSync('$CACHE_FILE', 'utf8'));
+            const report = fs.readFileSync('$report_file', 'utf8');
+
+            // Update last_run
+            cache.last_run = {
+                date: '$today',
+                items_published: 20,
+                generation_mode: 'workflow'
+            };
+
+            // Extract URLs and titles from report for article_history
+            const urlRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+            const titleRegex = /^##\s+(.+)$/gm;
+            const articles = [];
+            const urls = {};
+
+            let match;
+            while ((match = urlRegex.exec(report)) !== null) {
+                const url = match[2];
+                if (!url.includes('#')) {
+                    urls[url] = '$today';
+                }
+            }
+            while ((match = titleRegex.exec(report)) !== null) {
+                if (!match[1].startsWith('Sources:')) {
+                    articles.push(match[1]);
+                }
+            }
+
+            // Update url_cache
+            if (!cache.url_cache.entries) cache.url_cache.entries = {};
+            Object.assign(cache.url_cache.entries, urls);
+
+            // Update article_history
+            if (!cache.article_history) cache.article_history = {};
+            cache.article_history['$today'] = articles;
+
+            // Update source_stats last_run
+            cache.source_stats = cache.source_stats || {};
+            const sources = ['hn', 'hf_papers', 'paul_graham', 'fs_blog', 'hackernoon_pm', 'scotthyoung'];
+            sources.forEach(s => {
+                if (cache.source_stats[s]) {
+                    cache.source_stats[s].last_run = '$today';
+                }
+            });
+
+            fs.writeFileSync('$CACHE_FILE', JSON.stringify(cache, null, 2));
+            console.log('Cache updated: ' + articles.length + ' articles, ' + Object.keys(urls).length + ' URLs');
+        "
+        log "Cache updated successfully."
+        return 0
+    else
+        log "WARNING: node not available, cannot update cache.json"
+        return 1
+    fi
 }
 
 # Check if we already have today's report
@@ -121,10 +211,12 @@ main() {
     log "========================================"
     log "Starting daily workflow at $(date)"
     log "========================================"
-    
-    # Check if today's report already exists
+
+    # Check if today's report already exists OR cache indicates already run
     if check_today_report_exists; then
         log "Today's report already exists, skipping generation."
+    elif check_cache_for_today; then
+        log "Cache indicates already run today, skipping generation."
     else
         # Try to generate report with retries
         while [ $RETRY_COUNT -le $MAX_RETRIES ]; do
@@ -171,7 +263,10 @@ main() {
         log "ERROR: Build check failed after $((MAX_RETRIES + 1)) attempts. Please check the errors manually."
         exit 1
     fi
-    
+
+    # Update cache to prevent duplicate runs
+    update_cache || log "WARNING: Failed to update cache, may cause duplicate runs next time."
+
     # Commit and push
     if commit_and_push; then
         log "Workflow completed successfully!"
