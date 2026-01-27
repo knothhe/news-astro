@@ -285,9 +285,6 @@ Task 调用:
 
 > 本日筛选自 N 个信息源，共收录 20 条高质量内容
 > 生成耗时: X 分钟 | 版本: v3.0
->
-> **Warning**: Sub-agent 'worker' not detected. Running in generic mode (Serial Execution). Performance might be degraded.
-> **警告**：未检测到 Sub-agent 'worker'。正在以通用模式（串行执行）运行。性能可能会受影响。
 
 ---
 
@@ -356,5 +353,8 @@ _Sources: HN, HuggingFace, OneUsefulThing, ..._
     - 主 Agent 依次执行每个源的抓取任务。
     - 虽然速度较慢，但保证基本功能可用。
 
-3.  **用户提示**:
-    - 必须在生成的日报开头（引用块部分）包含明显的警告信息，提示用户当前正在运行于降级模式。
+3.  **串行执行模式**:
+
+    - 不使用 parallel block。
+    - 主 Agent 依次执行每个源的抓取任务。
+    - 虽然速度较慢，但保证基本功能可用。
