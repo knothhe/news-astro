@@ -2,29 +2,29 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-01-26",
+    "date": "2026-01-27",
     "items_published": 20,
-    "generation_mode": "workflow"
+    "generation_mode": "serial"
   },
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 4,
-      "success_count": 4,
-      "avg_items_per_fetch": 8,
-      "avg_quality_score": 3.6,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25",
-      "last_run": "2026-01-26"
+      "total_fetches": 5,
+      "success_count": 5,
+      "avg_items_per_fetch": 10,
+      "avg_quality_score": 3.8,
+      "last_fetch": "2026-01-27",
+      "last_success": "2026-01-27",
+      "last_run": "2026-01-27"
     },
     "hf_papers": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 12,
       "avg_quality_score": 4.6,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25",
-      "last_run": "2026-01-26"
+      "last_fetch": "2026-01-27",
+      "last_success": "2026-01-27",
+      "last_run": "2026-01-27"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -55,13 +55,13 @@
       "note": "Archive page, latest issue from Jan 22"
     },
     "fs_blog": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 1,
       "avg_quality_score": 4.2,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25",
-      "last_run": "2026-01-26"
+      "last_fetch": "2026-01-27",
+      "last_success": "2026-01-27",
+      "last_run": "2026-01-27"
     },
     "hackernoon_pm": {
       "total_fetches": 4,
@@ -73,20 +73,37 @@
       "last_run": "2026-01-26"
     },
     "scotthyoung": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 5,
+      "success_count": 5,
       "avg_items_per_fetch": 1,
       "avg_quality_score": 4.5,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25",
-      "last_run": "2026-01-26"
+      "last_fetch": "2026-01-27",
+      "last_success": "2026-01-27",
+      "last_run": "2026-01-27"
     }
   },
   "url_cache": {
     "_comment": "已处理的 URL 缓存，避免重复收录",
     "_ttl_hours": 168,
     "entries": {
-      "huggingface.co/papers/2601.15876": "2026-01-23",
+      "huggingface.co/papers/2601.16725": "2026-01-27",
+      "huggingface.co/papers/2601.16746": "2026-01-27",
+      "huggingface.co/papers/2601.14133": "2026-01-27",
+      "huggingface.co/papers/2601.16973": "2026-01-27",
+      "huggingface.co/papers/2601.15808": "2026-01-27",
+      "huggingface.co/papers/2601.14243": "2026-01-27",
+      "simonwillison.net/2026/Jan/26/chatgpt-containers": "2026-01-27",
+      "news.ycombinator.com/item?id=46763864": "2026-01-27",
+      "www.zackliscio.com/posts/rip-low-code-2014-2025": "2026-01-27",
+      "qwen.ai/blog?id=qwen3-max-thinking": "2026-01-27",
+      "blog.vjeux.com/2026/analysis/porting-100k-lines-from-typescript-to-rust-using-claude-code-in-a-month.html": "2026-01-27",
+      "www.darioamodei.com/essay/the-adolescence-of-technology": "2026-01-27",
+      "atmoio.substack.com/p/after-two-years-of-vibecoding-im": "2026-01-27",
+      "www.theguardian.com/technology/2026/jan/24/google-ai-overviews-youtube-medical-citations-study": "2026-01-27",
+      "www.greptile.com/blog/ai-code-review-bubble": "2026-01-27",
+      "fs.blog/brain-food/january-25-2026": "2026-01-27",
+      "nproject.io/blog/juicessh-give-me-back-my-pro-features": "2026-01-27",
+      "www.scotthyoung.com/blog/2026/01/21/what-exactly-is-energy": "2026-01-27",
       "huggingface.co/papers/2601.15197": "2026-01-23",
       "huggingface.co/papers/2601.15165": "2026-01-23",
       "huggingface.co/papers/2601.14724": "2026-01-23",
@@ -236,6 +253,29 @@
       "18. ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
       "19. Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
       "20. Qwen3-TTS Technical Report"
+      ],
+    "2026-01-27": [
+      "1. ChatGPT Containers Now Support Bash, pip/npm Install and File Downloads",
+      "2. LongCat-Flash-Thinking: 美团发布的长链推理模型技术报告",
+      "3. SWE-Pruner: ByteDance 推出的代码智能体自适应上下文剪枝方法",
+      "4. MapLibre Tile: 现代高效的矢量瓦片格式发布",
+      "5. RIP Low-Code (2014-2025): 低代码时代的终结反思",
+      "6. France Aiming to Replace Zoom, Google Meet, Microsoft Teams",
+      "7. Qwen3-Max-Thinking: 阿里发布的新一代推理模型",
+      "8. Porting 100k Lines from TypeScript to Rust Using Claude Code in a Month",
+      "9. Fedora Asahi Remix Now Working on Apple M3",
+      "10. TwinBrainVLA: 中关村学院推出的通用具身智能视觉语言模型",
+      "11. After Two Years of Vibecoding, I'm Back to Writing by Hand",
+      "12. Google AI Overviews Cite YouTube More Than Any Medical Site",
+      "13. VisGym: UC Sky Computing Lab 的多模态智能体环境框架",
+      "14. There is an AI Code Review Bubble",
+      "15. Inference-Time Scaling of Verification: 腾讯推出的自演化深度研究智能体",
+      "16. The Adolescence of Technology: Dario Amodei 关于 AI 发展阶段的深度思考",
+      "17. Jet-RL: NVIDIA 推出的 FP8 强化学习统一训练推理框架",
+      "18. The Spectrum of Independence: Farnam Street 本周洞察",
+      "19. JuiceSSH: 开发者呼吁恢复专业功能",
+      "20. What Exactly is Energy? Scott Young 最新深度文章"
     ]
   }
+}
 }
