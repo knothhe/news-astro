@@ -115,6 +115,27 @@ get_today_date() {
     date '+%Y-%m-%d'
 }
 
+check_deploy_yaml_modified() {
+    cd "$PROJECT_DIR"
+    if git diff --quiet .github/workflows/deploy.yaml; then
+        return 1  # not modified
+    else
+        return 0  # modified
+    fi
+}
+
+revert_deploy_yaml() {
+    log "WARNING: deploy.yaml was modified, reverting changes..."
+    cd "$PROJECT_DIR"
+    if git checkout -- .github/workflows/deploy.yaml 2>/dev/null; then
+        log "deploy.yaml changes reverted successfully."
+        return 0
+    else
+        log "ERROR: Failed to revert deploy.yaml changes."
+        return 1
+    fi
+}
+
 check_today_report_exists() {
     local today=$(get_today_date)
     local report_file="${POSTS_DIR}/${today}-news-report.md"
@@ -131,7 +152,9 @@ generate_report() {
     
     # Run opencode with daily-news-report skill
     cd "$PROJECT_DIR"
-    opencode run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。" --print-logs
+    opencode run "请使用 daily-news-report skill 生成今日技术新闻报告，并将报告保存到 @src/content/posts/ 目录下，文件名为 YYYY-MM-DD-news-report.md 格式。
+
+IMPORTANT: 严格禁止修改 @.github/workflows/deploy.yaml 文件！不要对该文件进行任何更改，包括格式调整、注释修改等。如果 skill 需要修改 deploy.yaml，请立即停止并报告错误。" --print-logs
     
     if check_today_report_exists; then
         log "Report generated successfully: ${POSTS_DIR}/$(get_today_date)-news-report.md"
@@ -174,6 +197,11 @@ commit_and_push() {
     log "Step 3: Committing and pushing changes..."
     
     cd "$PROJECT_DIR"
+    
+    # Check if deploy.yaml was modified and revert if necessary
+    if check_deploy_yaml_modified; then
+        revert_deploy_yaml || return 1
+    fi
     
     # Check if there are changes to commit (including untracked files)
     if ! git status --porcelain | grep -q .; then
@@ -261,6 +289,12 @@ main() {
     if ! check_build; then
         log "ERROR: Build check failed after $((MAX_RETRIES + 1)) attempts. Please check the errors manually."
         exit 1
+    fi
+
+    # Final check: ensure deploy.yaml is not modified
+    if check_deploy_yaml_modified; then
+        log "WARNING: deploy.yaml was modified during workflow, reverting..."
+        revert_deploy_yaml
     fi
 
     # Update cache to prevent duplicate runs
