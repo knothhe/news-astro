@@ -2,29 +2,30 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-01-01",
-    "items_published": 0,
-    "generation_mode": "manual"
+    "date": "2026-02-01",
+    "items_published": 20,
+    "generation_mode": "auto",
+    "sources_used": ["hn", "hf_papers"]
   },
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
     "hn": {
-      "total_fetches": 6,
-      "success_count": 6,
-      "avg_items_per_fetch": 10,
-      "avg_quality_score": 4.0,
-      "last_fetch": "2026-01-29",
-      "last_success": "2026-01-29",
-      "last_run": "2026-01-29"
+      "total_fetches": 7,
+      "success_count": 7,
+      "avg_items_per_fetch": 15,
+      "avg_quality_score": 4.1,
+      "last_fetch": "2026-02-01",
+      "last_success": "2026-02-01",
+      "last_run": "2026-02-01"
     },
     "hf_papers": {
-      "total_fetches": 6,
-      "success_count": 6,
-      "avg_items_per_fetch": 8,
-      "avg_quality_score": 4.5,
-      "last_fetch": "2026-01-29",
-      "last_success": "2026-01-29",
-      "last_run": "2026-01-29"
+      "total_fetches": 7,
+      "success_count": 7,
+      "avg_items_per_fetch": 5,
+      "avg_quality_score": 4.6,
+      "last_fetch": "2026-02-01",
+      "last_success": "2026-02-01",
+      "last_run": "2026-02-01"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -317,7 +318,34 @@
       "Oban Python: Elixir Job Framework Port",
       "Android Desktop Interface Leaks",
       "Design Review Dysfunction - HackerNoon",
-      "Show HN: The HN Arcade"
-    ]
-  }
-}
+       "Show HN: The HN Arcade"
+     ]
+   },
+   "2026-02-01": [
+       "Mobile Carriers Can Get Your GPS Location",
+       "Swift Is a More Convenient Rust",
+       "Finland Looks to Introduce Australia-Style Ban on Social Media",
+       "The Adolescence of Technology",
+       "Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives",
+       "CPython Internals Explained",
+       "In Praise of dry-run",
+       "pg_tracing: Distributed Tracing for PostgreSQL",
+       "Generative AI and Wikipedia Editing: What We Learned in 2025",
+       "Data Processing Benchmark Featuring Rust, Go, Swift, Zig, Julia",
+       "Outsourcing Thinking",
+       "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
+       "Scaling Embeddings Outperforms Scaling Experts in Language Models",
+       "DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation",
+       "Apple Platform Security (Jan 2026)",
+       "VisualJJ – Jujutsu in Visual Studio Code",
+       "Minimal – Open-Source Hardened Container Images",
+       "Netbird: A German Tailscale Alternative",
+       "What I Learned Building an Opinionated and Minimal Coding Agent",
+       "NVIDIA's 10-Year Effort to Make the Shield TV the Most Updated Android Device",
+       "AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents",
+       "Oban: Elixir Job Queue Ported to Python",
+       "ConceptMoE: Adaptive Token-to-Concept Compression for Compute Allocation",
+       "Mousefood: Embedded Terminal UI for Microcontrollers",
+       "The Book of PF, 4th Edition"
+   ]
+ }
