@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-01-30",
-    "items_published": 20,
-    "generation_mode": "serial"
+    "date": "2026-01-01",
+    "items_published": 0,
+    "generation_mode": "manual"
   },
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
