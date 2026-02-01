@@ -22,14 +22,16 @@ async function fetchHN() {
   try {
     const html = await fetchUrl('https://news.ycombinator.com');
     const items = [];
-    const regex = /<a href="(item\?id=\d+)".*?>(.*?)<\/a>.*?<a href="(https?[^"]+)"/g;
+    const regex = /<span class="titleline"><a href="([^"]+)".*?>([^<]+)<\/a>/g;
     let match;
     let count = 0;
     while ((match = regex.exec(html)) && count < 10) {
+      let url = match[1];
       const title = match[2].replace(/<[^>]+>/g, '').trim();
-      if (!title.includes('More') && !title.includes('Ask HN') && title.length > 10) {
-        let url = match[3];
-        if (url.startsWith('item?')) url = 'https://news.ycombinator.com/' + url;
+      if (title.length > 10 && !title.includes('More')) {
+        if (!url.startsWith('http')) {
+          url = 'https://news.ycombinator.com/' + url;
+        }
         items.push({
           source_id: 'hn',
           title,

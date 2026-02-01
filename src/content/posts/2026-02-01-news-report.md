@@ -1,11 +1,3 @@
----
-title: Daily News Report（2026-02-01）
-pubDate: 2026-02-01
-description: Daily tech news report compiled from multiple high-quality sources
-categories: [daily-news, tech]
-draft: false
----
-
 # Daily News Report（2026-02-01）
 
 > 本日筛选自 2 个信息源，共收录 15 条高质量内容
@@ -15,7 +7,7 @@ draft: false
 
 ---
 
-## 1. 6 hours ago
+## 1. Netbird a German Tailscale alternative (P2P WireGuard-based overlay network)
 
 **摘要**: Hacker News top story
 
@@ -25,7 +17,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/)
+**来源**: [Link](https://netbird.io/)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -33,7 +25,7 @@ draft: false
 
 ---
 
-## 2. 2 hours ago
+## 2. What I learned building an opinionated and minimal coding agent
 
 **摘要**: Hacker News top story
 
@@ -43,7 +35,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html)
+**来源**: [Link](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -51,7 +43,7 @@ draft: false
 
 ---
 
-## 3. 2 hours ago
+## 3. The Book of PF, 4th edition
 
 **摘要**: Hacker News top story
 
@@ -61,7 +53,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://arxiv.org/abs/2512.21473)
+**来源**: [Link](https://nostarch.com/book-of-pf-4th-edition)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -69,7 +61,7 @@ draft: false
 
 ---
 
-## 4. 3 hours ago
+## 4. Mobile carriers can get your GPS location
 
 **摘要**: Hacker News top story
 
@@ -79,7 +71,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://github.com/rtvkiz/minimal)
+**来源**: [Link](https://an.dywa.ng/carrier-gnss.html)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -87,7 +79,7 @@ draft: false
 
 ---
 
-## 5. 4 hours ago
+## 5. Reliable 25 Gigabit Ethernet via Thunderbolt
 
 **摘要**: Hacker News top story
 
@@ -97,7 +89,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://en.wikipedia.org/wiki/Wikipedia:Sandbox)
+**来源**: [Link](https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -105,7 +97,7 @@ draft: false
 
 ---
 
-## 6. 3 hours ago
+## 6. The history of C# and TypeScript with Anders Hejlsberg | GitHub
 
 **摘要**: Hacker News top story
 
@@ -115,7 +107,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://www.scientificamerican.com/article/smallpox-eradication-champion-william-foege-dies-at-89/)
+**来源**: [Link](https://www.youtube.com/watch?v=uMqx8NNT4xY)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -123,7 +115,7 @@ draft: false
 
 ---
 
-## 7. 2 hours ago
+## 7. In praise of –dry-run
 
 **摘要**: Hacker News top story
 
@@ -133,7 +125,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://github.com/zupat/related_post_gen)
+**来源**: [Link](https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -141,7 +133,7 @@ draft: false
 
 ---
 
-## 8. 3 hours ago
+## 8. List animals until failure
 
 **摘要**: Hacker News top story
 
@@ -151,7 +143,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://www.usenix.org/system/files/login-logout_1305_mickens.pdf)
+**来源**: [Link](https://rose.systems/animalist/)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -159,7 +151,7 @@ draft: false
 
 ---
 
-## 9. 3 hours ago
+## 9. pg_tracing: Distributed Tracing for PostgreSQL
 
 **摘要**: Hacker News top story
 
@@ -169,7 +161,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://ferrari-imports.enigmatechnologies.dev/)
+**来源**: [Link](https://github.com/DataDog/pg_tracing)
 
 **关键词**: `HN` `tech` `discussion`
 
@@ -177,7 +169,7 @@ draft: false
 
 ---
 
-## 10. 2 hours ago
+## 10. Coffee as a staining agent substitute in electron microscopy
 
 **摘要**: Hacker News top story
 
@@ -187,7 +179,7 @@ draft: false
 2. Tech community discussion
 3. High engagement
 
-**来源**: [Link](https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer)
+**来源**: [Link](https://phys.org/news/2026-01-coffee-agent-substitute-electron-microscopy.html)
 
 **关键词**: `HN` `tech` `discussion`
 
