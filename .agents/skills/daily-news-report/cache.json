@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-02-04",
+    "date": "2026-02-08",
     "items_published": 20,
     "generation_mode": "auto",
-    "sources_used": ["hn", "hf_papers", "hackernoon_pm"]
+    "sources_used": ["hn", "hf_papers", "james_clear", "fs_blog"]
   },
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
