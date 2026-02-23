@@ -208,6 +208,36 @@ return_format: JSON
   - url_cache: 添加已处理的 URL
   - content_hashes: 添加内容指纹
   - article_history: 记录收录文章
+
+  重要 - 缓存清理:
+  - 保留最近 7 天的数据
+  - 删除 article_history 中 7 天之前的日期条目
+  - 删除 url_cache.entries 中 7 天之前的 URL
+  - 保留 source_stats 和 last_run（仅更新最新日期）
+
+  清理代码示例:
+  ```javascript
+  // 获取7天前的日期
+  const cutoffDate = new Date();
+  cutoffDate.setDate(cutoffDate.getDate() - 7);
+  const cutoffStr = cutoffDate.toISOString().split('T')[0];
+
+  // 清理 article_history
+  Object.keys(cache.article_history).forEach(date => {
+    if (date !== '_comment' && date < cutoffStr) {
+      delete cache.article_history[date];
+    }
+  });
+
+  // 清理 url_cache.entries
+  const newEntries = {};
+  Object.entries(cache.url_cache.entries).forEach(([url, date]) => {
+    if (date >= cutoffStr) {
+      newEntries[url] = date;
+    }
+  });
+  cache.url_cache.entries = newEntries;
+  ```
 ```
 
 ## SubAgent 调用示例
