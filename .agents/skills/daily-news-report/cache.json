@@ -2,15 +2,9 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-02-08",
+    "date": "2026-02-24",
     "items_published": 20,
-    "generation_mode": "auto",
-    "sources_used": [
-      "hn",
-      "hf_papers",
-      "james_clear",
-      "fs_blog"
-    ]
+    "generation_mode": "workflow"
   },
   "source_stats": {
     "_comment": "记录每个源的历史表现，用于动态调整优先级",
@@ -21,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-04"
+      "last_run": "2026-02-24"
     },
     "hf_papers": {
       "total_fetches": 8,
@@ -30,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-04"
+      "last_run": "2026-02-24"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -49,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-01-26"
+      "last_run": "2026-02-24"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -67,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-01-29"
+      "last_run": "2026-02-24"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -76,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-04"
+      "last_run": "2026-02-24"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -85,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-01-29"
+      "last_run": "2026-02-24"
     }
   },
   "url_cache": {
@@ -180,7 +174,27 @@
       "https://www.scotthyoung.com/blog/2026/01/27/stress-impacts-energy/": "2026-01-29",
       "https://www.scotthyoung.com/blog/2026/01/14/manage-energy-not-time/": "2026-01-29",
       "https://www.scotthyoung.com/blog/2026/01/05/how-to-learn-taste/": "2026-01-29",
-      "https://hackernoon.com/why-everyone-in-your-design-review-knows-nothing-will-change-and-shows-up-anyway": "2026-01-29"
+      "https://hackernoon.com/why-everyone-in-your-design-review-knows-nothing-will-change-and-shows-up-anyway": "2026-01-29",
+      "https://spectrum.ieee.org/age-verification": "2026-02-24",
+      "https://ladybird.org/posts/adopting-rust/": "2026-02-24",
+      "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/": "2026-02-24",
+      "https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal": "2026-02-24",
+      "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html": "2026-02-24",
+      "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/": "2026-02-24",
+      "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html": "2026-02-24",
+      "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/": "2026-02-24",
+      "https://github.com/pgdogdev/pgdog": "2026-02-24",
+      "https://huggingface.co/papers/2602.10693": "2026-02-24",
+      "https://huggingface.co/papers/2602.08354": "2026-02-24",
+      "https://huggingface.co/papers/2602.18422": "2026-02-24",
+      "https://huggingface.co/papers/2602.18292": "2026-02-24",
+      "https://sowbot.co.uk/": "2026-02-24",
+      "https://llm-timeline.com/": "2026-02-24",
+      "https://github.com/vignesh07/babyshark": "2026-02-24",
+      "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/": "2026-02-24",
+      "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs": "2026-02-24",
+      "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/": "2026-02-24",
+      "https://fs.blog/brain-food/february-22-2026/": "2026-02-24"
     }
   },
   "content_hashes": {
@@ -322,6 +336,28 @@
       "Android Desktop Interface Leaks",
       "Design Review Dysfunction - HackerNoon",
       "Show HN: The HN Arcade"
+    ],
+    "2026-02-24": [
+      "一、年龄验证陷阱：保护隐私的代价适得其反",
+      "二、Ladybird 浏览器宣布采用 Rust 语言",
+      "三、美国民众自发拆除 Flock  surveillance 摄像头",
+      "四、Elsevier 关闭金融期刊引用卡特尔",
+      "五、Binance 因伊朗合规问题解雇员工",
+      "六、ASML 公布 EUV 光源突破性进展",
+      "七、我们拥有的简单网络",
+      "八、AI 为 FreeBSD 构建 Wi-Fi 驱动",
+      "九、PgDog：无需修改应用即可扩展 PostgreSQL",
+      "十、VESPO：稳定的离策略LLM训练的变分序列级软策略优化",
+      "十一、推理模型是否隐式知道何时停止思考？",
+      "十二、Generated Reality：基于交互式视频生成的以人为中心的世界模拟",
+      "十三、解码作为概率单纯形上的优化：从 Top-K 到 Top-P 再到 Best-of-K 采样器",
+      "十四、Sowbot：开源农业机器人",
+      "十五、AI Timeline：171 个大语言模型的演进可视化",
+      "十六、Babyshark：面向 PCAP 的简化 Wireshark 终端界面",
+      "十七、Wolfram 技术作为 LLM 系统的基础工具",
+      "十八、锂离子电池突破：提升续航并降低成本",
+      "十九、我们的简单网络理念",
+      "二十、内部斗争：Farnam Street 本周洞察"
     ]
   },
   "2026-02-01": [
@@ -371,5 +407,27 @@
     "WildGraphBench: Benchmarking GraphRAG with Wild-Source Corpora",
     "agile-project-management",
     "managing-technical-people"
+  ],
+  "2026-02-24": [
+    "The Age Verification Trap",
+    "Ladybird adopts Rust",
+    "Americans destroying Flock surveillance cameras",
+    "Elsevier shuts down finance journal citation cartel",
+    "Binance fired employees over Iran compliance",
+    "ASML EUV light source advance",
+    "A simple web we own",
+    "AI builds FreeBSD Wi-Fi driver",
+    "PgDog: Scale Postgres without changing app",
+    "VESPO: Variational Sequence-Level Soft Policy Optimization",
+    "Does Your Reasoning Model Know When to Stop Thinking?",
+    "Generated Reality: Human-centric World Simulation",
+    "Decoding as Optimisation on the Probability Simplex",
+    "Sowbot: Open-hardware agricultural robot",
+    "AI Timeline: 171 LLMs visualization",
+    "Babyshark: Wireshark terminal UI",
+    "Wolfram Tech as Foundation Tool for LLM Systems",
+    "Lithium-ion breakthrough for EVs",
+    "UNIX99 for TI-99/4A",
+    "Farnam Street: Internal Battles"
   ]
 }
