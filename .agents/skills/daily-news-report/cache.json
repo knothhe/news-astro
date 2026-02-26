@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-02-25",
+    "date": "2026-02-26",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     },
     "hf_papers": {
       "total_fetches": 8,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-02-25"
+      "last_run": "2026-02-26"
     }
   },
   "url_cache": {
@@ -214,7 +214,27 @@
       "https://huggingface.co/papers/2602.20021": "2026-02-25",
       "https://huggingface.co/papers/2602.19895": "2026-02-25",
       "https://huggingface.co/papers/2602.16863": "2026-02-25",
-      "https://huggingface.co/papers/2602.18224": "2026-02-25"
+      "https://huggingface.co/papers/2602.18224": "2026-02-25",
+      "https://therecord.media/denmark-digital-agency-microsoft-digital-independence": "2026-02-26",
+      "https://www.0xsid.com/blog/online-tld-is-pain": "2026-02-26",
+      "https://www.marginalia.nu/weird-ai-crap/hn/": "2026-02-26",
+      "https://code.claude.com/docs/en/remote-control": "2026-02-26",
+      "https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/": "2026-02-26",
+      "https://arstechnica.com/science/2026/02/final-2025-data-is-in-us-energy-use-is-up-as-solar-passes-hydro/": "2026-02-26",
+      "https://spectrum.ieee.org/jimi-hendrix-systems-engineer": "2026-02-26",
+      "https://worksinprogress.co/issue/the-united-states-needs-fewer-bus-stops/": "2026-02-26",
+      "https://www.om-language.com/": "2026-02-26",
+      "https://simonlermen.substack.com/p/large-scale-online-deanonymization": "2026-02-26",
+      "https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html": "2026-02-26",
+      "https://huggingface.co/papers/2602.21193": "2026-02-26",
+      "https://huggingface.co/papers/2602.12192": "2026-02-26",
+      "https://huggingface.co/papers/2602.20739": "2026-02-26",
+      "https://huggingface.co/papers/2602.14337": "2026-02-26",
+      "https://huggingface.co/papers/2602.21015": "2026-02-26",
+      "https://huggingface.co/papers/2602.21204": "2026-02-26",
+      "https://huggingface.co/papers/2602.20951": "2026-02-26",
+      "https://huggingface.co/papers/2602.18940": "2026-02-26",
+      "https://huggingface.co/papers/2602.16990": "2026-02-26"
     }
   },
   "content_hashes": {
@@ -400,6 +420,28 @@
       "十八、DSDR: LLM 推理的双尺度多样性正则化",
       "十九、SimToolReal: 零样本灵巧工具操作",
       "二十、SimVLA: 简单的 VLA 基线模型"
+    ],
+    "2026-02-26": [
+      "一、丹麦政府机构宣布弃用微软软件",
+      "二、.online 域名的陷阱：一位开发者的惨痛教训",
+      "三、Hacker News 新账户更倾向使用 em-dash",
+      "四、Claude Code 远程控制功能详解",
+      "五、美国国务院下令外交官对抗数据主权倡议",
+      "六、美国太阳能发电量首次超过水电",
+      "七、Jimi Hendrix 其实是系统工程师",
+      "八、公交车站平衡：快速、廉价且有效的城市交通优化方案",
+      "九、Om 编程语言：重新定义函数式响应式编程",
+      "十、大规模在线去匿名化：LLM 的隐私威胁",
+      "十一、通过 CLI 降低 MCP 成本",
+      "十二、NVIDIA 论文：扩展 LLM 终端能力的数据工程",
+      "十三、腾讯提出长上下文处理的查询聚焦记忆感知重排序器",
+      "十四、PyVision-RL：通过强化学习构建开放智能体视觉模型",
+      "十五、LongCLI-Bench：命令行智能体编程基准测试",
+      "十六、从感知到行动：交互式视觉推理基准",
+      "十七、NVIDIA：测试时训练与 KV 绑定实际上是线性注意力",
+      "十八、让 VLMs 和扩散模型理解和修复视觉伪影",
+      "十九、DREAM：基于智能体指标的深度研究评估",
+      "二十、Conv-FinRe：对话式纵向金融推荐基准"
     ]
   },
   "2026-02-01": [
