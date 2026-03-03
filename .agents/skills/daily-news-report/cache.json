@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-02",
+    "date": "2026-03-03",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     },
     "hf_papers": {
       "total_fetches": 8,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-02"
+      "last_run": "2026-03-03"
     }
   },
   "url_cache": {
@@ -194,7 +194,7 @@
       "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/": "2026-02-24",
       "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs": "2026-02-24",
       "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/": "2026-02-24",
-      "https://fs.blog/brain-food/february-22-2026/": "2026-03-02",
+      "https://fs.blog/brain-food/february-22-2026/": "2026-03-03",
       "https://www.calebleak.com/posts/dog-game/": "2026-02-25",
       "https://blog.cloudflare.com/vinext/": "2026-02-25",
       "https://vmfunc.re/blog/persona/": "2026-02-25",
@@ -295,7 +295,26 @@
       "https://huggingface.co/papers/2602.22953": "2026-03-02",
       "https://huggingface.co/papers/2602.23205": "2026-03-02",
       "https://www.quantamagazine.org/are-the-mysteries-of-quantum-mechanics-beginning-to-dissolve-20260213/": "2026-03-02",
-      "https://www.sciencedaily.com/releases/2026/02/260228093456.htm": "2026-03-02"
+      "https://www.sciencedaily.com/releases/2026/02/260228093456.htm": "2026-03-02",
+      "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/": "2026-03-03",
+      "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything": "2026-03-03",
+      "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/": "2026-03-03",
+      "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine": "2026-03-03",
+      "https://huggingface.co/papers/2602.22661": "2026-03-03",
+      "https://huggingface.co/papers/2602.24286": "2026-03-03",
+      "https://www.ntik.me/posts/voice-agent": "2026-03-03",
+      "https://huggingface.co/papers/2602.24289": "2026-03-03",
+      "https://schipper.ai/posts/parallel-coding-agents/": "2026-03-03",
+      "https://health.ucdavis.edu/news/headlines/first-ever-in-utero-stell-cell-therapy-for-fetal-spina-bifida-repair-is-safe-study-finds/2026/02": "2026-03-03",
+      "https://huggingface.co/papers/2602.20913": "2026-03-03",
+      "https://huggingface.co/papers/2602.23452": "2026-03-03",
+      "https://govbase.com": "2026-03-03",
+      "https://www.rac.ca/rac-responds-to-the-closure-of-the-weatherradio-service-in-canada/": "2026-03-03",
+      "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/": "2026-03-03",
+      "https://www.scotthyoung.com/blog/2026/02/26/7-energy-misconceptions/": "2026-03-03",
+      "https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657": "2026-03-03",
+      "https://huggingface.co/papers/2602.24012": "2026-03-03",
+      "https://github.com/vustagc/pianoterm": "2026-03-03"
     }
   },
   "content_hashes": {
@@ -591,6 +610,28 @@
       "十八、James Clear 3-2-1：关于恐惧、重要的事情和生活回应",
       "十九、Farnam Street：内部斗争",
       "二十、铁纳米材料无创治疗癌症"
+    ],
+    "2026-03-03": [
+      "一、Motorola 宣布与 GrapheneOS 达成战略合作",
+      "二、Meta 智能眼镜隐私风波：工人可以\"看到用户看到的一切\"",
+      "三、Apple 推出全新 iPad Air，搭载 M4 芯片",
+      "四、M4 Apple Neural Engine 逆向工程：揭示神经网络加速器架构",
+      "五、dLLM：UC Berkeley 提出简单扩散语言建模方法",
+      "六、CUDA Agent：ByteDance 提出高性能 CUDA 内核生成的代理强化学习框架",
+      "七、低于 500 毫秒延迟的语音 Agent 实现",
+      "八、Mode Seeking 遇上 Mean Seeking：NVIDIA 提出长视频生成新方法",
+      "九、并行编码 Agent 实战：使用 tmux 和 Markdown 规范",
+      "十、首个子宫内干细胞治疗胎儿脊柱裂获成功",
+      "十一、LongVideo-R1：长视频理解的智能导航框架",
+      "十二、CiteAudit：LLM 时代科学引用验证基准",
+      "十三、Govbase：追踪法案从源头到社交媒体的完整链路",
+      "十四、加拿大气象广播服务即将关闭",
+      "十五、苹果发布 iPhone 17e：中端市场新布局",
+      "十六、Farnam Street：内部斗争",
+      "十七、Scott Young：关于能量的七个错误认知",
+      "十八、不列颠哥伦比亚省结束时间调整",
+      "十九、InfoNCE 诱导高斯分布：新的表征学习理论",
+      "二十、Pianoterm：用钢琴演奏 shell 命令"
     ]
   },
   "2026-02-01": [
