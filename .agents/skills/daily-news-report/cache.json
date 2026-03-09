@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-08",
+    "date": "2026-03-09",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     },
     "hf_papers": {
       "total_fetches": 8,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-08"
+      "last_run": "2026-03-09"
     }
   },
   "url_cache": {
@@ -353,7 +353,7 @@
       "https://huggingface.co/papers/2603.03160": "2026-03-05",
       "https://libre.solar": "2026-03-05",
       "https://cubiclenate.com/2026/03/04/data-has-weight-but-only-on-ssds-blathering/": "2026-03-05",
-      "https://fs.blog/brain-food/march-1-2026/": "2026-03-08",
+      "https://fs.blog/brain-food/march-1-2026/": "2026-03-09",
       "https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/": "2026-03-06",
       "https://openai.com/index/introducing-gpt-5-4/": "2026-03-06",
       "https://www.anthropic.com/research/labor-market-impacts": "2026-03-06",
@@ -377,18 +377,18 @@
       "https://www.researchsquare.com/article/rs-6079807/v1": "2026-03-07",
       "https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs": "2026-03-07",
       "https://www.anthropic.com/news/mozilla-firefox-security": "2026-03-07",
-      "https://huggingface.co/papers/2603.04448": "2026-03-08",
-      "https://huggingface.co/papers/2603.05449": "2026-03-07",
+      "https://huggingface.co/papers/2603.04448": "2026-03-09",
+      "https://huggingface.co/papers/2603.05449": "2026-03-09",
       "https://twitter.com/JosephPolitano/status/2029916364664611242": "2026-03-07",
       "https://libresprite.github.io/": "2026-03-07",
       "https://github.com/moongate-community/moongatev2": "2026-03-07",
       "https://opencamera.org.uk/": "2026-03-07",
       "https://www.lumafield.com/scan-of-the-month/health-wearables": "2026-03-07",
       "https://www.fivetran.com/blog/anthropic-please-make-a-new-slack": "2026-03-07",
-      "https://huggingface.co/papers/2603.03756": "2026-03-08",
-      "https://huggingface.co/papers/2602.23166": "2026-03-08",
-      "https://huggingface.co/papers/2603.05504": "2026-03-08",
-      "https://huggingface.co/papers/2603.04743": "2026-03-08",
+      "https://huggingface.co/papers/2603.03756": "2026-03-09",
+      "https://huggingface.co/papers/2602.23166": "2026-03-09",
+      "https://huggingface.co/papers/2603.05504": "2026-03-09",
+      "https://huggingface.co/papers/2603.04743": "2026-03-09",
       "https://jamesclear.com/3-2-1/march-5-2026": "2026-03-08",
       "https://consultwithgriff.com/dapper-nvarchar-implicit-conversion-performance-trap": "2026-03-07",
       "https://acid.vegas/blog/the-shady-world-of-ip-leasing/": "2026-03-07",
@@ -401,10 +401,20 @@
       "https://mujs.org": "2026-03-08",
       "https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html": "2026-03-08",
       "https://tropes.fyi/tropes-md": "2026-03-08",
-      "https://huggingface.co/papers/2603.04791": "2026-03-08",
-      "https://huggingface.co/papers/2603.00466": "2026-03-08",
-      "https://huggingface.co/papers/2603.02210": "2026-03-08",
-      "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/": "2026-03-08"
+      "https://huggingface.co/papers/2603.04791": "2026-03-09",
+      "https://huggingface.co/papers/2603.00466": "2026-03-09",
+      "https://huggingface.co/papers/2603.02210": "2026-03-09",
+      "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/": "2026-03-08",
+      "https://agent-safehouse.dev/": "2026-03-09",
+      "https://fb.edoo.gg": "2026-03-09",
+      "https://blog.documentfoundation.org/blog/2026/02/libreoffice-26-2-is-here/": "2026-03-09",
+      "https://mlumiste.com/general/openai-charter/": "2026-03-09",
+      "https://github.com/BigBodyCobain/Shadowbroker": "2026-03-09",
+      "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm": "2026-03-09",
+      "https://www.youtube.com/watch?v=yRV8fSw6HaE": "2026-03-09",
+      "https://blog.yoshuawuyts.com/a-grand-vision-for-rust/": "2026-03-09",
+      "https://huggingface.co/papers/2603.02170": "2026-03-09",
+      "https://huggingface.co/papers/2603.05218": "2026-03-09"
     }
   },
   "content_hashes": {
@@ -832,6 +842,28 @@
       "十八、Who You Are",
       "十九、How to find clarity",
       "二十、Why developers using AI are working longer hours"
+    ],
+    "2026-03-09": [
+      "一、Agent Safehouse：macOS 原生沙箱技术为本地 AI 代理保驾护航",
+      "二、SkillNet：创建、评估与连接 AI 技能的新范式",
+      "三、FrameBook：重新定义电子书阅读体验",
+      "四、LibreOffice Writer 正式支持 Markdown",
+      "五、AGI 时间线与定义：不断变化的终极目标",
+      "六、实时 OSINT 仪表板：聚合 15 个全球情报源",
+      "七、Rust Wasm 编写指南：深入理解 WebAssembly",
+      "八、MOOSE-Star：突破科学发现的可训练性障碍",
+      "九、人类脑细胞玩 DOOM：生物计算机的新里程碑",
+      "十、RealWonder：实时物理动作条件视频生成",
+      "十一、Rust 宏大愿景：语言设计的未来方向",
+      "十二、DARE：通过分布感知检索对齐 LLM 代理与 R 统计生态",
+      "十三、AgentVista：超挑战性真实视觉场景中的多模态代理评估",
+      "十四、RoboPocket：使用手机即时改进机器人策略",
+      "十五、HiFi-Inpaint：高保真参考图像修复技术",
+      "十六、DreamWorld：视频生成中的统一世界建模",
+      "十七、SageBwd：可训练的低比特注意力机制",
+      "十八、Timer-S1：十亿级时间序列基础模型",
+      "十九、KARL：通过强化学习构建知识代理",
+      "二十、Farnam Street Brain Food：你是谁"
     ]
   },
   "2026-02-01": [
