@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-13",
+    "date": "2026-03-16",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-12",
       "last_success": "2026-03-12",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     },
     "hf_papers": {
       "total_fetches": 9,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-12",
       "last_success": "2026-03-12",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-13"
+      "last_run": "2026-03-16"
     }
   },
   "url_cache": {
@@ -488,7 +488,27 @@
       "https://huggingface.co/papers/2603.09229": "2026-03-13",
       "https://huggingface.co/papers/2603.09827": "2026-03-13",
       "https://huggingface.co/papers/2603.10913": "2026-03-13",
-      "https://hackernoon.com/c/product-management": "2026-03-13"
+      "https://hackernoon.com/c/product-management": "2026-03-13",
+      "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session": "2026-03-16",
+      "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode": "2026-03-16",
+      "https://sebastianraschka.com/llm-architecture-gallery/": "2026-03-16",
+      "https://isaacfreund.com/blog/river-window-management/": "2026-03-16",
+      "https://thatshubham.com/blog/news-audit": "2026-03-16",
+      "https://news.ycombinator.com/item?id=47388646": "2026-03-16",
+      "https://zzk273.github.io/LATENT/": "2026-03-16",
+      "https://huggingface.co/papers/2603.12255": "2026-03-16",
+      "https://huggingface.co/papers/2603.12250": "2026-03-16",
+      "https://huggingface.co/papers/2603.11531": "2026-03-16",
+      "https://www.sandordargo.com/blog/2026/03/11/cpp26-oxford-variadic-comma": "2026-03-16",
+      "https://huggingface.co/papers/2603.12056": "2026-03-16",
+      "https://huggingface.co/papers/2603.11421": "2026-03-16",
+      "https://huggingface.co/papers/2603.12267": "2026-03-16",
+      "https://huggingface.co/papers/2603.12265": "2026-03-16",
+      "https://huggingface.co/papers/2603.12257": "2026-03-16",
+      "https://huggingface.co/papers/2603.12247": "2026-03-16",
+      "https://huggingface.co/papers/2603.12245": "2026-03-16",
+      "https://huggingface.co/papers/2603.12264": "2026-03-16",
+      "https://huggingface.co/papers/2603.12252": "2026-03-16"
     }
   },
   "content_hashes": {
@@ -1026,6 +1046,28 @@
       "18. 1",
       "19. agile-project-management",
       "20. managing-technical-people"
+    ],
+    "2026-03-16": [
+      "一、Chrome DevTools MCP",
+      "二、Glassworm Returns: Invisible Unicode Attacks",
+      "三、LLM Architecture Gallery",
+      "四、Separating the Wayland Compositor and Window Manager",
+      "五、The 49MB Web Page",
+      "六、Ask HN: How is AI-assisted Coding Going",
+      "七、Learning Athletic Humanoid Tennis Skills",
+      "八、DVD: Deterministic Video Depth Estimation",
+      "九、Spatial-TTT: Streaming Visual-based Spatial Intelligence",
+      "十、Mobile-GS: Real-time Gaussian Splatting",
+      "十一、C++26: The Oxford Variadic Comma",
+      "十二、XSkill: Continual Learning from Experience",
+      "十三、ShotVerse: Cinematic Camera Control",
+      "十四、EVATok: Adaptive Length Video Tokenization",
+      "十五、OmniStream: Mastering Perception, Reconstruction and Action",
+      "十六、DreamVideo-Omni: Multi-Subject Video Customization",
+      "十七、Trust Your Critic: Robust Reward Modeling",
+      "十八、One Model, Many Budgets: Elastic Latent Interfaces",
+      "十九、GRADE: Benchmarking Discipline-Informed Reasoning",
+      "二十、EndoCoT: Endogenous Chain-of-Thought Reasoning"
     ]
   },
   "2026-02-01": [
@@ -1185,5 +1227,27 @@
     "瑞士电子投票试点解密失败后无法统计 2,048 张选票",
     "Show HN: Klaus – 开源 Claw 虚拟机",
     "实体如何支撑大规模科学造假"
+  ],
+  "2026-03-16": [
+    "Chrome DevTools MCP",
+    "Glassworm Returns: Invisible Unicode Attacks",
+    "LLM Architecture Gallery",
+    "Separating the Wayland Compositor and Window Manager",
+    "The 49MB Web Page",
+    "Ask HN: How is AI-assisted Coding Going",
+    "Learning Athletic Humanoid Tennis Skills",
+    "DVD: Deterministic Video Depth Estimation",
+    "Spatial-TTT: Streaming Visual-based Spatial Intelligence",
+    "Mobile-GS: Real-time Gaussian Splatting",
+    "C++26: The Oxford Variadic Comma",
+    "XSkill: Continual Learning from Experience",
+    "ShotVerse: Cinematic Camera Control",
+    "EVATok: Adaptive Length Video Tokenization",
+    "OmniStream: Mastering Perception, Reconstruction and Action",
+    "DreamVideo-Omni: Multi-Subject Video Customization",
+    "Trust Your Critic: Robust Reward Modeling",
+    "One Model, Many Budgets: Elastic Latent Interfaces",
+    "GRADE: Benchmarking Discipline-Informed Reasoning",
+    "EndoCoT: Endogenous Chain-of-Thought Reasoning"
   ]
 }
