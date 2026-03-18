@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-17",
+    "date": "2026-03-18",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-12",
       "last_success": "2026-03-12",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     },
     "hf_papers": {
       "total_fetches": 9,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-12",
       "last_success": "2026-03-12",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-17"
+      "last_run": "2026-03-18"
     }
   },
   "url_cache": {
@@ -528,7 +528,28 @@
       "https://huggingface.co/papers/2603.11647": "2026-03-17",
       "https://huggingface.co/papers/2603.13089": "2026-03-17",
       "https://news.ycombinator.com/item?id=47401042": "2026-03-17",
-      "https://github.com/rexrodeo/american-healthcare-conundrum": "2026-03-17"
+      "https://github.com/rexrodeo/american-healthcare-conundrum": "2026-03-17",
+      "https://kagi.com/smallweb/": "2026-03-18",
+      "https://fidget-spinner.github.io/posts/jit-on-track.html": "2026-03-18",
+      "https://huggingface.co/papers/2603.15031": "2026-03-18",
+      "https://huggingface.co/papers/2603.15619": "2026-03-18",
+      "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss": "2026-03-18",
+      "https://ffmpeg.org/index.html#pr8.1": "2026-03-18",
+      "https://huggingface.co/papers/2603.15594": "2026-03-18",
+      "https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system": "2026-03-18",
+      "https://huggingface.co/papers/2603.13594": "2026-03-18",
+      "https://huggingface.co/papers/2603.14473": "2026-03-18",
+      "https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511": "2026-03-18",
+      "https://mistral.ai/news/forge": "2026-03-18",
+      "https://huggingface.co/papers/2603.15583": "2026-03-18",
+      "https://unsloth.ai/docs/new/studio": "2026-03-18",
+      "https://hanno.codes/2026/03/17/java-26-is-here/": "2026-03-18",
+      "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox": "2026-03-18",
+      "https://kalpadesktop.org/": "2026-03-18",
+      "https://huggingface.co/papers/2603.15557": "2026-03-18",
+      "https://github.com/gsd-build/get-shit-done": "2026-03-18",
+      "https://huggingface.co/papers/2603.12529": "2026-03-18",
+      "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level": "2026-03-18"
     }
   },
   "content_hashes": {
@@ -1110,6 +1131,28 @@
       "十八、V-Bridge：将视频生成先验桥接到 versatile 少样本图像恢复",
       "十九、Voygr：AI 应用和代理的更好地图 API",
       "二十、美国商业保险公司支付 Medicare 相同医院程序费用的 254%"
+    ],
+    "2026-03-18": [
+      "一、Kagi Small Web：重新定义小而美的互联网",
+      "二、Python 3.15 JIT 编译器开发重新步入正轨",
+      "三、Attention Residuals：重新审视注意力机制的训练动态",
+      "四、Mixture-of-Depths Attention：动态计算分配的新范式",
+      "五、微软 Xbox One 被成功破解：Bliss 攻击详解",
+      "六、FFmpeg 8.1 发布：多媒体处理能力再升级",
+      "七、OpenSeeker：开源搜索智能体的训练数据民主化",
+      "八、Node.js 虚拟文件系统需求呼声高涨",
+      "九、EnterpriseOps-Gym：企业级智能体规划与工具使用环境",
+      "十、AI Can Learn Scientific Taste：科学品味的人工智能",
+      "十一、Illinois 法案要求操作系统账户年龄验证",
+      "十二、Mistral AI Forge：新一代开发者平台",
+      "十三、Grounding World Simulation：真实城市中的世界模拟",
+      "十四、Unsloth Studio：高效大模型微调工具",
+      "十五、Java 26 正式发布",
+      "十六、Edge.js：在 WebAssembly 沙箱中运行 Node 应用",
+      "十七、OpenSUSE Kalpa：面向未来的开源桌面系统",
+      "十八、Anatomy of a Lie：视觉语言模型的幻觉诊断框架",
+      "十九、Get Shit Done：元提示与规范驱动的开发系统",
+      "二十、Terminator：CoT 推理的最优退出点学习"
     ]
   },
   "2026-02-01": [
@@ -1291,5 +1334,27 @@
     "One Model, Many Budgets: Elastic Latent Interfaces",
     "GRADE: Benchmarking Discipline-Informed Reasoning",
     "EndoCoT: Endogenous Chain-of-Thought Reasoning"
+  ],
+  "2026-03-18": [
+    "Kagi Small Web：重新定义小而美的互联网",
+    "Python 3.15 JIT 编译器开发重新步入正轨",
+    "Attention Residuals：重新审视注意力机制的训练动态",
+    "Mixture-of-Depths Attention：动态计算分配的新范式",
+    "微软 Xbox One 被成功破解：Bliss 攻击详解",
+    "FFmpeg 8.1 发布：多媒体处理能力再升级",
+    "OpenSeeker：开源搜索智能体的训练数据民主化",
+    "Node.js 虚拟文件系统需求呼声高涨",
+    "EnterpriseOps-Gym：企业级智能体规划与工具使用环境",
+    "AI Can Learn Scientific Taste：科学品味的人工智能",
+    "Illinois 法案要求操作系统账户年龄验证",
+    "Mistral AI Forge：新一代开发者平台",
+    "Grounding World Simulation：真实城市中的世界模拟",
+    "Unsloth Studio：高效大模型微调工具",
+    "Java 26 正式发布",
+    "Edge.js：在 WebAssembly 沙箱中运行 Node 应用",
+    "OpenSUSE Kalpa：面向未来的开源桌面系统",
+    "Anatomy of a Lie：视觉语言模型的幻觉诊断框架",
+    "Get Shit Done：元提示与规范驱动的开发系统",
+    "Terminator：CoT 推理的最优退出点学习"
   ]
 }
