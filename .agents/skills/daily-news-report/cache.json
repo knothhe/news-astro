@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-19",
+    "date": "2026-03-20",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-19",
       "last_success": "2026-03-19",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     },
     "hf_papers": {
       "total_fetches": 10,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-19",
       "last_success": "2026-03-19",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-19"
+      "last_run": "2026-03-20"
     }
   },
   "url_cache": {
@@ -488,7 +488,7 @@
       "https://huggingface.co/papers/2603.09229": "2026-03-13",
       "https://huggingface.co/papers/2603.09827": "2026-03-13",
       "https://huggingface.co/papers/2603.10913": "2026-03-13",
-      "https://hackernoon.com/c/product-management": "2026-03-13",
+      "https://hackernoon.com/c/product-management": "2026-03-20",
       "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session": "2026-03-16",
       "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode": "2026-03-16",
       "https://sebastianraschka.com/llm-architecture-gallery/": "2026-03-16",
@@ -569,7 +569,22 @@
       "https://tmux.thijsverreck.com": "2026-03-19",
       "https://huggingface.co/papers/2603.13366": "2026-03-19",
       "https://huggingface.co/papers/2603.16669": "2026-03-19",
-      "https://stripe.com/blog/machine-payments-protocol": "2026-03-19"
+      "https://stripe.com/blog/machine-payments-protocol": "2026-03-19",
+      "https://github.com/cockpit-project/cockpit": "2026-03-20",
+      "https://astral.sh/blog/openai": "2026-03-20",
+      "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/": "2026-03-20",
+      "https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html": "2026-03-20",
+      "https://www.carryology.com/insights/how-the-turner-twins-are-mythbusting-modern-gear/": "2026-03-20",
+      "https://github.com/KittenML/KittenTTS": "2026-03-20",
+      "https://aicode.swerdlow.dev": "2026-03-20",
+      "https://esolang-bench.vercel.app/": "2026-03-20",
+      "https://www.iroh.computer/blog/noq-announcement": "2026-03-20",
+      "https://huggingface.co/papers/trending": "2026-03-20",
+      "https://huggingface.co/papers/2603.17187": "2026-03-20",
+      "https://huggingface.co/papers/2603.14935": "2026-03-20",
+      "https://huggingface.co/papers/2603.17117": "2026-03-20",
+      "https://huggingface.co/papers/2603.17218": "2026-03-20",
+      "https://huggingface.co/papers/2603.17621": "2026-03-20"
     }
   },
   "content_hashes": {
@@ -1195,6 +1210,28 @@
       "十八、思考不确定性：减少多模态大模型幻觉",
       "十九、Kinema4D：四维运动世界建模",
       "二十、机器支付协议 (MPP)"
+    ],
+    "2026-03-20": [
+      "1. Cockpit is a web-based graphical interface for servers",
+      "2. Astral to Join OpenAI",
+      "3. Google details new 24-hour process to sideload unverified Android apps",
+      "4. Bombarding gamblers with offers greatly increases betting and gambling harm",
+      "5. How the Turner twins are mythbusting modern technical apparel",
+      "6. Return of the Obra Dinn: spherical mapped dithering for a 1bpp first-person game",
+      "7. Show HN: Three new Kitten TTS models – smallest less than 25MB",
+      "8. Be intentional about how AI changes your codebase",
+      "9. EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
+      "10. Noq: n0&#x27;s new QUIC implementation in Rust",
+      "11. MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild",
+      "12. 2",
+      "13. Video-CoE: Reinforcing Video Event Prediction via Chain of Events",
+      "14. 2",
+      "15. MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
+      "16. Alignment Makes Language Models Normative, Not Descriptive",
+      "17. 2",
+      "18. Complementary Reinforcement Learning",
+      "19. agile-project-management",
+      "20. managing-technical-people"
     ]
   },
   "2026-02-01": [
