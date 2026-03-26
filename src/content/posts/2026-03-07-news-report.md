@@ -303,7 +303,7 @@ draft: false
 
 ## 十七、Farnam Street：你是谁
 
-**摘要**：Farnam Street 发布最新 Brain Food  newsletter，探讨「你是谁」这一永恒话题。文章探讨了身份认同、自我认知与成长之间的关系，提供实用的思考框架帮助读者建立更清晰的自我认知。
+**摘要**：Farnam Street 发布最新 Brain Food newsletter，探讨「你是谁」这一永恒话题。文章探讨了身份认同、自我认知与成长之间的关系，提供实用的思考框架帮助读者建立更清晰的自我认知。
 
 **要点**：
 

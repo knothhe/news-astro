@@ -49,9 +49,9 @@ draft: false
 
 ---
 
-## 三、美国民众自发拆除 Flock  surveillance 摄像头
+## 三、美国民众自发拆除 Flock surveillance 摄像头
 
-**摘要**：TechCrunch 报道显示，越来越多的美国民众开始物理拆除安装在社区内的 Flock  surveillance 摄像头。这一现象反映了公众对日益增长的 surveillance 状态的担忧和反叛，引发了关于隐私、公民自由与公共安全之间平衡的广泛讨论。
+**摘要**：TechCrunch 报道显示，越来越多的美国民众开始物理拆除安装在社区内的 Flock surveillance 摄像头。这一现象反映了公众对日益增长的 surveillance 状态的担忧和反叛，引发了关于隐私、公民自由与公共安全之间平衡的广泛讨论。
 
 **要点**：
 

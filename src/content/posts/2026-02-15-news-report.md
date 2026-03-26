@@ -31,9 +31,9 @@ draft: false
 
 ---
 
-## 二、χ_{0}: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies
+## 二、χ\_{0}: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies
 
-**摘要**：香港大学研究人员提出 χ_{0} 框架，解决机器人操作中的分布不一致问题。该方法通过资源感知的鲁棒控制策略，使机器人在面对环境变化时仍能保持稳定操作性能，为具身智能的实用化提供了新思路。
+**摘要**：香港大学研究人员提出 χ\_{0} 框架，解决机器人操作中的分布不一致问题。该方法通过资源感知的鲁棒控制策略，使机器人在面对环境变化时仍能保持稳定操作性能，为具身智能的实用化提供了新思路。
 
 **要点**：
 
@@ -49,7 +49,7 @@ draft: false
 
 ---
 
-## 三、GigaBrain-0.5M*: A VLA That Learns From World Model-Based Reinforcement Learning
+## 三、GigaBrain-0.5M\*: A VLA That Learns From World Model-Based Reinforcement Learning
 
 **摘要**：GigaAI 发布 GigaBrain-0.5M 视觉语言动作模型，该模型通过世界模型驱动的强化学习范式进行训练，首次在百万级参数规模上实现了从视觉到动作的直接映射，在机器人导航和操作任务上展现出卓越的零样本泛化能力。
 
