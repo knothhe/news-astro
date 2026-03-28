@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-03-27",
+    "date": "2026-03-28",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-03-27"
+      "last_run": "2026-03-28"
     }
   },
   "url_cache": {
@@ -693,7 +693,27 @@
       "https://unterwaditzer.net/2025/codeberg.html": "2026-03-27",
       "https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform": "2026-03-27",
       "https://voxday.net/2026/03/25/rip-john-bradley/": "2026-03-27",
-      "https://huggingface.co/papers/2603.24440": "2026-03-27"
+      "https://huggingface.co/papers/2603.24440": "2026-03-27",
+      "https://xn--gckvb8fzb.com/hold-on-to-your-hardware/": "2026-03-28",
+      "https://www.windowscentral.com/microsoft/windows-11/people-inside-microsoft-are-fighting-to-drop-windows-11s-mandatory-microsoft-account-requirements-during-setup": "2026-03-28",
+      "https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder": "2026-03-28",
+      "https://soranews24.com/2026/03/27/japan-now-has-a-special-desk-for-people-who-work-at-home-with-a-pet-catphotos/": "2026-03-28",
+      "https://www.euronews.com/2026/03/26/suddenly-energy-independence-feels-practical-europeans-are-building-mini-solar-farms-at-ho": "2026-03-28",
+      "https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/": "2026-03-28",
+      "https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026": "2026-03-28",
+      "https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/": "2026-03-28",
+      "https://owltec.ca/Other/Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+%28%26+Cloudflare%29": "2026-03-28",
+      "https://nibblestew.blogspot.com/2026/03/everything-old-is-new-again-memory.html": "2026-03-28",
+      "https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/": "2026-03-28",
+      "https://lr0.org/blog/p/macos/": "2026-03-28",
+      "https://www.rubick.com/should-qa-exist/": "2026-03-28",
+      "https://www.bbc.com/news/articles/c77m4zx6zvmo": "2026-03-28",
+      "https://johnjwang.com/post/2026/03/27/why-are-executives-enabled-with-ai-but-ics-arent/": "2026-03-28",
+      "https://huggingface.co/papers/2603.25728": "2026-03-28",
+      "https://huggingface.co/papers/2603.25040": "2026-03-28",
+      "https://huggingface.co/papers/2603.23516": "2026-03-28",
+      "https://huggingface.co/papers/2603.24755": "2026-03-28",
+      "https://huggingface.co/papers/2603.24943": "2026-03-28"
     }
   },
   "content_hashes": {
@@ -1485,6 +1505,18 @@
       "8. CERN to Host a New Phase of Open Research Europe",
       "9. John Bradley, Author of xv, Has Died",
       "10. CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents"
+    ],
+    "2026-03-28": [
+      "一、Hold on to Your Hardware",
+      "二、People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "三、Anatomy of the .claude/ folder",
+      "四、Desk for people who work at home with a cat",
+      "五、Europeans building mini solar farms",
+      "六、Gzip decompression in 250 lines of Rust",
+      "七、Telnyx package compromised on PyPI",
+      "八、DOJ confirms FBI Director Kash Patel's personal email was hacked",
+      "九、Installing a Let's Encrypt TLS certificate on a Brother printer with Certbot",
+      "十、Everything old is new again: memory optimization"
     ]
   },
   "2026-02-01": [
@@ -1732,5 +1764,27 @@
     "十八、Trivy 再次遭受攻击：GitHub Actions 标签污染",
     "十九、Dune3d: 参数化 3D CAD 应用",
     "二十、Windows 3.1 复古壁纸档案"
+  ],
+  "2026-03-28": [
+    "Hold on to Your Hardware",
+    "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+    "Anatomy of the .claude/ folder",
+    "Desk for people who work at home with a cat",
+    "Europeans building mini solar farms",
+    "Gzip decompression in 250 lines of Rust",
+    "Telnyx package compromised on PyPI",
+    "DOJ confirms FBI Director Kash Patel's personal email was hacked",
+    "Installing a Let's Encrypt TLS certificate on a Brother printer with Certbot",
+    "Everything old is new again: memory optimization",
+    "Capability-Based Security for Redox: Namespace and CWD as Capabilities",
+    "Make macOS consistently bad (unironically)",
+    "Should QA exist?",
+    "Slovenia becomes first EU country to introduce fuel rationing",
+    "Why are executives enamored with AI, but ICs aren't?",
+    "PixelSmile: Toward Fine-Grained Facial Expression Editing",
+    "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+    "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
+    "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+    "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol"
   ]
 }
