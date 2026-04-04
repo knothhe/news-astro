@@ -159,7 +159,7 @@ draft: false
 
 ## 九、Cocoa-Way – Native macOS Wayland compositor for running Linux apps
 
-**摘要**: Cocoa-Way 是一个原生 macOS Wayland  compositor，允许在 macOS 系统上无缝运行 Linux 应用程序，为跨平台应用开发提供了新的解决方案。
+**摘要**: Cocoa-Way 是一个原生 macOS Wayland compositor，允许在 macOS 系统上无缝运行 Linux 应用程序，为跨平台应用开发提供了新的解决方案。
 
 **要点**:
 
