@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-04",
+    "date": "2026-04-05",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-04"
+      "last_run": "2026-04-05"
     }
   },
   "url_cache": {
@@ -819,12 +819,12 @@
       "https://jpmens.net/2026/04/03/ssh-certificates-the-better-ssh-experience/": "2026-04-04",
       "https://www.dbos.dev/blog/async-python-is-secretly-deterministic": "2026-04-04",
       "https://huggingface.co/papers/2603.26164": "2026-04-04",
-      "https://huggingface.co/papers/2604.02029": "2026-04-04",
-      "https://huggingface.co/papers/2604.02329": "2026-04-04",
-      "https://huggingface.co/papers/2604.02268": "2026-04-04",
+      "https://huggingface.co/papers/2604.02029": "2026-04-05",
+      "https://huggingface.co/papers/2604.02329": "2026-04-05",
+      "https://huggingface.co/papers/2604.02268": "2026-04-05",
       "https://huggingface.co/papers/2604.01001": "2026-04-04",
-      "https://huggingface.co/papers/2604.02296": "2026-04-04",
-      "https://huggingface.co/papers/2604.01658": "2026-04-04",
+      "https://huggingface.co/papers/2604.02296": "2026-04-05",
+      "https://huggingface.co/papers/2604.01658": "2026-04-05",
       "https://huggingface.co/papers/2603.29640": "2026-04-04",
       "https://huggingface.co/papers/2603.28130": "2026-04-04",
       "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing": "2026-04-03",
@@ -838,7 +838,22 @@
       "https://huggingface.co/papers/2603.26648": "2026-04-03",
       "https://huggingface.co/papers/2603.26017": "2026-04-03",
       "https://huggingface.co/papers/2604.01161": "2026-04-03",
-      "https://huggingface.co/papers/2604.01193": "2026-04-03"
+      "https://huggingface.co/papers/2604.01193": "2026-04-03",
+      "https://arxiv.org/abs/2604.01193": "2026-04-05",
+      "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs": "2026-04-05",
+      "https://mtlynch.io/claude-code-found-linux-vulnerability/": "2026-04-05",
+      "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent": "2026-04-05",
+      "https://sllm.cloud": "2026-04-05",
+      "https://github.com/teamchong/turboquant-wasm": "2026-04-05",
+      "https://www.anthropic.com/research/emotion-concepts-function": "2026-04-05",
+      "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms": "2026-04-05",
+      "https://iii.social": "2026-04-05",
+      "https://news.ycombinator.com/item?id=47606244": "2026-04-05",
+      "https://ruckus.defn.io/": "2026-04-05",
+      "https://thoughts.wyounas.com/p/some-unusual-trees": "2026-04-05",
+      "https://deadneurons.substack.com/p/why-the-most-valuable-things-you": "2026-04-05",
+      "https://github.com/siddharthvaddem/openscreen": "2026-04-05",
+      "https://huggingface.co/papers/2604.01676": "2026-04-05"
     }
   },
   "content_hashes": {
@@ -1791,6 +1806,28 @@
       "十八、CORAL：面向开放域发现的多智能体演化",
       "十九、ASI-Evolve：AI 加速 AI 发展",
       "二十、MDPBench：真实场景多语言文档解析基准"
+    ],
+    "2026-04-05": [
+      "一、Embarrassingly simple self-distillation improves code generation",
+      "二、The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "三、Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "四、Claude Code Found a Linux Kernel Vulnerability Hidden for 23 Years",
+      "五、Generative World Renderer",
+      "六、CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+      "七、VOID: Video Object and Interaction Deletion",
+      "八、Components of a Coding Agent",
+      "九、sllm – Split a GPU node with other developers, unlimited tokens",
+      "十、TurboQuant-WASM – Google's vector quantization in the browser",
+      "十一、Emotion concepts and their function in a large language model",
+      "十二、The CMS is dead, long live the CMS",
+      "十三、SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "十四、The Indie Internet Index",
+      "十五、Training mRNA Language Models Across 25 Species for $165",
+      "十六、Ruckus: Racket for iOS",
+      "十七、Some Unusual Trees",
+      "十八、Why the most valuable things you know are things you cannot say",
+      "十九、OpenScreen – open-source alternative to Screen Studio",
+      "二十、GPA: Learning GUI Process Automation from Demonstrations"
     ]
   },
   "2026-02-01": [
