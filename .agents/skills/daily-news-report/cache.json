@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-07",
+    "date": "2026-04-08",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-07"
+      "last_run": "2026-04-08"
     }
   },
   "url_cache": {
@@ -729,7 +729,7 @@
       "https://huggingface.co/papers/2604.02947": "2026-04-07",
       "https://huggingface.co/papers/2604.02486": "2026-04-07",
       "https://huggingface.co/papers/2604.02368": "2026-04-07",
-      "https://fs.blog/brain-food/april-5-2026/": "2026-04-07",
+      "https://fs.blog/brain-food/april-5-2026/": "2026-04-08",
       "https://huggingface.co/papers/2603.25040": "2026-03-30",
       "https://huggingface.co/papers/2603.23516": "2026-03-30",
       "https://huggingface.co/papers/2603.24755": "2026-03-30",
@@ -885,7 +885,26 @@
       "https://www.mattkeeter.com/blog/2026-04-05-tailcall/": "2026-04-06",
       "https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/": "2026-04-06",
       "https://hackernoon.com/how-to-design-short-execution-cycles-without-sprints": "2026-04-06",
-      "https://twitter.com/openrouter/status/2040239467865489874": "2026-04-06"
+      "https://twitter.com/openrouter/status/2040239467865489874": "2026-04-06",
+      "https://www.anthropic.com/glasswing": "2026-04-08",
+      "https://blog.cloudflare.com/post-quantum-roadmap/": "2026-04-08",
+      "https://z.ai/blog/glm-5.1": "2026-04-08",
+      "https://huggingface.co/papers/2604.04707": "2026-04-08",
+      "https://huggingface.co/papers/2604.04921": "2026-04-08",
+      "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/": "2026-04-08",
+      "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html": "2026-04-08",
+      "https://huggingface.co/papers/2604.04771": "2026-04-08",
+      "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf": "2026-04-08",
+      "https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/": "2026-04-08",
+      "https://github.com/mattmireles/gemma-tuner-multimodal": "2026-04-08",
+      "https://huggingface.co/papers/2604.04503": "2026-04-08",
+      "https://printervention.app/details": "2026-04-08",
+      "https://www.danvk.org/2026/03/08/oldnyc-updates.html": "2026-04-08",
+      "https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html": "2026-04-08",
+      "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/": "2026-04-08",
+      "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html": "2026-04-08",
+      "https://steganography.patrickvuscan.com": "2026-04-08",
+      "https://middle-earth-interactive-map.web.app/": "2026-04-08"
     }
   },
   "content_hashes": {
@@ -1904,6 +1923,28 @@
       "十八、VLMs 忽略视觉细节而依赖语义锚点",
       "十九、Xpertbench：专家级任务的基于规则评估",
       "二十、Credibility is Expensive"
+    ],
+    "2026-04-08": [
+      "一、Project Glasswing：AI 时代的网络安全新防线",
+      "二、Cloudflare 宣布 2029 年实现完全后量子安全",
+      "三、GLM-5.1：面向长视角任务的大模型更新",
+      "四、OpenWorldLib：统一的世界模型基准",
+      "五、TriAttention：长推理的高效三角函数 KV 压缩",
+      "六、Google 开源实验性代理编排测试平台 Scion",
+      "七、S3 Files：AWS S3 架构演进",
+      "八、MinerU2.5-Pro：文档解析的极限挑战",
+      "九、Claude Mythos Preview 系统卡片发布",
+      "十、Apollo 11 导航计算机代码发现未记录 bug",
+      "十一、Gemma 4 多模态微调工具发布",
+      "十二、内存智能代理研究",
+      "十三、Farnam Street：可信度是昂贵的",
+      "十四、在浏览器中运行 Linux 恢复老旧打印机",
+      "十五、OldNYC 增加 10,000 张历史照片",
+      "十六、比特币与量子计算",
+      "十七、AI 时代的品味",
+      "十八、生产环境磁盘空间耗尽问题",
+      "十九、Unicode 隐写术工具",
+      "二十、中托尔金中土世界交互地图"
     ]
   },
   "2026-02-01": [
