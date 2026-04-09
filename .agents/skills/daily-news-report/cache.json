@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-08",
+    "date": "2026-04-09",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-08"
+      "last_run": "2026-04-09"
     }
   },
   "url_cache": {
@@ -729,7 +729,7 @@
       "https://huggingface.co/papers/2604.02947": "2026-04-07",
       "https://huggingface.co/papers/2604.02486": "2026-04-07",
       "https://huggingface.co/papers/2604.02368": "2026-04-07",
-      "https://fs.blog/brain-food/april-5-2026/": "2026-04-08",
+      "https://fs.blog/brain-food/april-5-2026/": "2026-04-09",
       "https://huggingface.co/papers/2603.25040": "2026-03-30",
       "https://huggingface.co/papers/2603.23516": "2026-03-30",
       "https://huggingface.co/papers/2603.24755": "2026-03-30",
@@ -904,7 +904,24 @@
       "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/": "2026-04-08",
       "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html": "2026-04-08",
       "https://steganography.patrickvuscan.com": "2026-04-08",
-      "https://middle-earth-interactive-map.web.app/": "2026-04-08"
+      "https://middle-earth-interactive-map.web.app/": "2026-04-08",
+      "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html": "2026-04-09",
+      "https://piechowski.io/post/git-commands-before-reading-code/": "2026-04-09",
+      "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement": "2026-04-09",
+      "https://werwolv.net/posts/usb_for_sw_devs/": "2026-04-09",
+      "https://kalmanfilter.net": "2026-04-09",
+      "https://ai.meta.com/blog/introducing-muse-spark-msl/": "2026-04-09",
+      "https://huggingface.co/papers/2604.05015": "2026-04-09",
+      "https://huggingface.co/papers/2604.06132": "2026-04-09",
+      "https://arxiv.org/abs/2604.05091": "2026-04-09",
+      "https://huggingface.co/papers/2604.04215": "2026-04-09",
+      "https://huggingface.co/papers/2604.04949": "2026-04-09",
+      "https://devblogs.microsoft.com/dotnet/csharp-15-union-types/": "2026-04-09",
+      "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/": "2026-04-09",
+      "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/": "2026-04-09",
+      "https://huggingface.co/papers/2604.05091": "2026-04-09",
+      "https://blog.railway.com/p/moving-railways-frontend-off-nextjs": "2026-04-09",
+      "https://swift.org/blog/expanding-swift-ide-support/": "2026-04-09"
     }
   },
   "content_hashes": {
@@ -1945,6 +1962,28 @@
       "十八、生产环境磁盘空间耗尽问题",
       "十九、Unicode 隐写术工具",
       "二十、中托尔金中土世界交互地图"
+    ],
+    "2026-04-09": [
+      "一、玩家将 Mac OS X 10.0 移植到任天堂 Wii",
+      "二、阅读代码前必做的五个 Git 命令",
+      "三、John Deere 达成 9900 万美元右修和解协议",
+      "四、USB for Software Developers",
+      "五、Git 命令助你理解代码库健康度",
+      "六、理解卡尔曼滤波：雷达应用实例",
+      "七、Muse Spark：迈向个人超级智能",
+      "八、Video-MME：视频理解基准测试进化",
+      "九、Claw-Eval：自主代理可信评估框架",
+      "十、MegaTrain：单 GPU 全精度训练百亿参数模型",
+      "十一、DARE：Diffusion 模型对齐与强化学习",
+      "十二、从代理轨迹中学习检索",
+      "十三、Credibility is Expensive",
+      "十四、C# 15 联合类型",
+      "十五、Microsoft 终止 VeraCrypt 账户",
+      "十六、美国城市放弃 Flock Surveillance 技术",
+      "十七、MegaTrain: 100B+ 参数模型单 GPU 训练",
+      "十八、铁路前端从 Next.js 迁移",
+      "十九、Union types in C# 15",
+      "二十、扩展 Swift IDE 支持"
     ]
   },
   "2026-02-01": [
