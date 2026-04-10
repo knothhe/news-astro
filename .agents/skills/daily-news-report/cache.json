@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-09",
+    "date": "2026-04-10",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-09"
+      "last_run": "2026-04-10"
     }
   },
   "url_cache": {
@@ -921,7 +921,27 @@
       "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/": "2026-04-09",
       "https://huggingface.co/papers/2604.05091": "2026-04-09",
       "https://blog.railway.com/p/moving-railways-frontend-off-nextjs": "2026-04-09",
-      "https://swift.org/blog/expanding-swift-ide-support/": "2026-04-09"
+      "https://swift.org/blog/expanding-swift-ide-support/": "2026-04-09",
+      "https://www.eff.org/deeplinks/2026/04/eff-leaving-x": "2026-04-10",
+      "https://huggingface.co/papers/2604.06268": "2026-04-10",
+      "https://huggingface.co/papers/2604.04746": "2026-04-10",
+      "https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers": "2026-04-10",
+      "https://lzon.ca/posts/other/microsoft-user-abuse/": "2026-04-10",
+      "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/": "2026-04-10",
+      "https://arhan.sh/blog/native-instant-space-switching-on-macos/": "2026-04-10",
+      "https://jamesclear.com/3-2-1/april-9-2026": "2026-04-10",
+      "https://freebsdfoundation.github.io/freebsd-laptop-testing/": "2026-04-10",
+      "https://github.com/randerson112/craft": "2026-04-10",
+      "https://www.axios.com/2026/04/09/meta-social-media-addiction-ads": "2026-04-10",
+      "https://www.unfolder.app/": "2026-04-10",
+      "https://blog.skypilot.co/research-driven-agents/": "2026-04-10",
+      "https://charcuterie.elastiq.ch/": "2026-04-10",
+      "https://hegel.dev": "2026-04-10",
+      "https://www.instantdb.com/essays/architecture": "2026-04-10",
+      "https://huggingface.co/papers/2604.07023": "2026-04-10",
+      "https://huggingface.co/papers/2604.04247": "2026-04-10",
+      "https://huggingface.co/papers/2603.25111": "2026-04-10",
+      "https://huggingface.co/papers/2604.07209": "2026-04-10"
     }
   },
   "content_hashes": {
@@ -1984,6 +2004,28 @@
       "十八、铁路前端从 Next.js 迁移",
       "十九、Union types in C# 15",
       "二十、扩展 Swift IDE 支持"
+    ],
+    "2026-04-10": [
+      "一、EFF 宣布离开 X 平台",
+      "二、RAGEN-2：代理强化学习中的推理崩溃",
+      "三、Think in Strokes: 基于笔画处理的图像生成",
+      "四、Maine 或将成为首个禁止新数据中心建设的州",
+      "五、微软使用黑暗模式诱导用户付费",
+      "六、Claude Code 迁移至 Zed 和 OpenRouter",
+      "七、Native Instant Space Switching on macOS",
+      "八、关于观察力的艺术",
+      "九、顶级笔记本电脑与 FreeBSD",
+      "十、Cargo 风格的 C/C++ 构建工具 Craft",
+      "十一、Meta 移除社交媒体成瘾广告",
+      "十二、3D 模型展开工具 Unfolder",
+      "十三、研究驱动型代理：先读后写",
+      "十四、Unicode 字符相似性可视化工具 Charcuterie",
+      "十五、Hegel: 通用属性测试协议",
+      "十六、Instant 1.0: AI 编码应用的后端",
+      "十七、MARS: 自回归模型多 Token 生成",
+      "十八、Combee: 提示学习规模化",
+      "十九、SEVerA: 自演进代理的验证合成",
+      "二十、INSPATIO-WORLD: 实时 4D 世界模拟器"
     ]
   },
   "2026-02-01": [
