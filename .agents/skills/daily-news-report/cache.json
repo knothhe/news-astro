@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-10",
+    "date": "2026-04-11",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-10"
+      "last_run": "2026-04-11"
     }
   },
   "url_cache": {
@@ -729,7 +729,7 @@
       "https://huggingface.co/papers/2604.02947": "2026-04-07",
       "https://huggingface.co/papers/2604.02486": "2026-04-07",
       "https://huggingface.co/papers/2604.02368": "2026-04-07",
-      "https://fs.blog/brain-food/april-5-2026/": "2026-04-09",
+      "https://fs.blog/brain-food/april-5-2026/": "2026-04-11",
       "https://huggingface.co/papers/2603.25040": "2026-03-30",
       "https://huggingface.co/papers/2603.23516": "2026-03-30",
       "https://huggingface.co/papers/2603.24755": "2026-03-30",
@@ -929,7 +929,7 @@
       "https://lzon.ca/posts/other/microsoft-user-abuse/": "2026-04-10",
       "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/": "2026-04-10",
       "https://arhan.sh/blog/native-instant-space-switching-on-macos/": "2026-04-10",
-      "https://jamesclear.com/3-2-1/april-9-2026": "2026-04-10",
+      "https://jamesclear.com/3-2-1/april-9-2026": "2026-04-11",
       "https://freebsdfoundation.github.io/freebsd-laptop-testing/": "2026-04-10",
       "https://github.com/randerson112/craft": "2026-04-10",
       "https://www.axios.com/2026/04/09/meta-social-media-addiction-ads": "2026-04-10",
@@ -941,7 +941,25 @@
       "https://huggingface.co/papers/2604.07023": "2026-04-10",
       "https://huggingface.co/papers/2604.04247": "2026-04-10",
       "https://huggingface.co/papers/2603.25111": "2026-04-10",
-      "https://huggingface.co/papers/2604.07209": "2026-04-10"
+      "https://huggingface.co/papers/2604.07209": "2026-04-10",
+      "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html": "2026-04-11",
+      "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/": "2026-04-11",
+      "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/": "2026-04-11",
+      "https://pckt.blog/b/jcalabro/april-2026-outage-post-mortem-219ebg2": "2026-04-11",
+      "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst": "2026-04-11",
+      "https://github.com/callumlocke/json-formatter": "2026-04-11",
+      "https://huggingface.co/papers/2604.06628": "2026-04-11",
+      "https://huggingface.co/papers/2604.08377": "2026-04-11",
+      "https://huggingface.co/papers/2604.07430": "2026-04-11",
+      "https://huggingface.co/papers/2604.08523": "2026-04-11",
+      "https://huggingface.co/papers/2604.08364": "2026-04-11",
+      "https://rowan441.github.io/1dchess/chess.html": "2026-04-11",
+      "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design": "2026-04-11",
+      "https://fluidcad.io/": "2026-04-11",
+      "https://www.construction-physics.com/p/helium-is-hard-to-replace": "2026-04-11",
+      "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/": "2026-04-11",
+      "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html": "2026-04-11",
+      "https://steveblank.com/2026/04/09/nowhere-is-safe/": "2026-04-11"
     }
   },
   "content_hashes": {
@@ -2026,6 +2044,28 @@
       "十八、Combee: 提示学习规模化",
       "十九、SEVerA: 自演进代理的验证合成",
       "二十、INSPATIO-WORLD: 实时 4D 世界模拟器"
+    ],
+    "2026-04-11": [
+      "一、WireGuard 发布新版 Windows 客户端，解决微软签名问题",
+      "二、知名系统工具 CPU-Z 和 HWMonitor 被篡改",
+      "三、macOS 隐私和安全设置存在严重漏洞",
+      "四、Bluesky 发布 2026 年 4 月服务中断事件报告",
+      "五、Linux 内核官方文档开始引入 AI 辅助编程指南",
+      "六、JSON Formatter Chrome 扩展注入恶意广告代码",
+      "七、HuggingFace 热门论文：Rethinking Generalization in Reasoning SFT",
+      "八、SkillClaw：让 AI 智能体技能协同进化",
+      "九、HY-Embodied-0.5：面向真实世界智能体的具身基础模型",
+      "十、ClawBench：评估 AI 智能体日常网络任务完成能力",
+      "十一、MegaStyle：构建多样化可扩展风格数据集",
+      "十二、1D Chess：全新维度的一维棋类游戏",
+      "十三、Keychron 键盘鼠标工业设计文件开源",
+      "十四、FluidCAD：基于 JavaScript 的参数化 CAD 软件",
+      "十五、Farnam Street：Credibility is Expensive",
+      "十六、James Clear：目的清晰、观察力与声誉建设",
+      "十七、Helium 难以替代：工业应用的现实困境",
+      "十八、WatGo：Go 语言的 WebAssembly 工具包",
+      "十九、Sam Altman 住宅遭遇袭击事件",
+      "二十、Nowhere Is Safe：数字时代的隐私边界"
     ]
   },
   "2026-02-01": [
