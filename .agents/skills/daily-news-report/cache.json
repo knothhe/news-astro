@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-16"
+      "last_run": "2026-04-17"
     }
   },
   "url_cache": {
@@ -1043,7 +1043,27 @@
       "https://huggingface.co/papers/2604.09574": "2026-04-16",
       "https://huggingface.co/papers/2604.12626": "2026-04-16",
       "https://huggingface.co/papers/2604.13036": "2026-04-16",
-      "https://huggingface.co/papers/2604.10577": "2026-04-16"
+      "https://huggingface.co/papers/2604.10577": "2026-04-16",
+      "https://www.anthropic.com/news/claude-opus-4-7": "2026-04-17",
+      "https://openai.com/index/codex-for-almost-everything/": "2026-04-17",
+      "https://qwen.ai/blog?id=qwen3.6-35b-a3b": "2026-04-17",
+      "https://blog.cloudflare.com/ai-platform/": "2026-04-17",
+      "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html": "2026-04-17",
+      "https://huggingface.co/papers/2604.14148": "2026-04-17",
+      "https://huggingface.co/papers/2604.07429": "2026-04-17",
+      "https://huggingface.co/papers/2604.11626": "2026-04-17",
+      "https://huggingface.co/papers/2604.14144": "2026-04-17",
+      "https://huggingface.co/papers/2604.10866": "2026-04-17",
+      "https://blog.cloudflare.com/email-for-agents/": "2026-04-17",
+      "https://ropensci.org/blog/2026/04/02/tree-sitter-overview/": "2026-04-17",
+      "https://blog.calif.io/p/codex-hacked-a-samsung-tv": "2026-04-17",
+      "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/": "2026-04-17",
+      "https://blog.cloudflare.com/artifacts-git-for-agents-beta/": "2026-04-17",
+      "https://huggingface.co/papers/2604.14004": "2026-04-17",
+      "https://huggingface.co/papers/2604.11045": "2026-04-17",
+      "https://openai.com/index/introducing-gpt-rosalind/": "2026-04-17",
+      "https://news.play.date/news/duke-playdate-education/": "2026-04-17",
+      "https://github.com/SeanFDZ/macmind": "2026-04-17"
     }
   },
   "content_hashes": {
@@ -2260,6 +2280,28 @@
       "18. Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
       "19. Lyra 2.0: Explorable Generative 3D Worlds",
       "20. The Blind Spot of Agent Safety: Benign User Instructions Expose Vulnerabilities"
+    ],
+    "2026-04-17": [
+      "一、Claude Opus 4.7 发布：Anthropic 最新旗舰模型",
+      "二、Codex for Almost Everything：OpenAI 发布全能编程助手",
+      "三、Qwen3.6-35B-A3B：开源 agentic coding 新标杆",
+      "四、Cloudflare AI Platform：面向 agent 的推理层",
+      "五、Android CLI：用 Agent 3 倍速构建 Android 应用",
+      "六、Seedance 2.0：ByteDance 视频生成新进展",
+      "七、GameWorld：多模态游戏 agent 评估基准",
+      "八、RationalRewards：视觉生成的推理奖励机制",
+      "九、SpatialEvo：自进化空间智能",
+      "十、OccuBench：专业任务的 AI Agent 评估",
+      "十一、Cloudflare Email Service：面向 Agent 的邮件服务",
+      "十二、Tree-sitter 赋能 R 语言编程体验",
+      "十三、Codex Hacked a Samsung TV",
+      "十四、Qwen3.6 on My Laptop Drew a Better Pelican Than Claude Opus 4.7",
+      "十五、Artifacts: Git 版本控制的存储服务",
+      "十六、Memory Transfer Learning：记忆在 Coding Agents 间转移",
+      "十七、Sema Code：可编程嵌入的 AI 编码基础设施",
+      "十八、GPT-Rosalind：生命科学 AI 助手",
+      "十九、Playdate 改变杜克大学游戏设计教学",
+      "二十、MacMind：1989 Macintosh 上的 Transformer"
     ]
   },
   "2026-02-01": [
