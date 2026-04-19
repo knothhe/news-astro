@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-18",
+    "date": "2026-04-19",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-18"
+      "last_run": "2026-04-19"
     }
   },
   "url_cache": {
@@ -1076,13 +1076,27 @@
       "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/": "2026-04-18",
       "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation": "2026-04-18",
       "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not": "2026-04-18",
-      "https://huggingface.co/papers/2604.14268": "2026-04-18",
-      "https://huggingface.co/papers/2604.15308": "2026-04-18",
-      "https://huggingface.co/papers/2604.14683": "2026-04-18",
-      "https://huggingface.co/papers/2604.14164": "2026-04-18",
+      "https://huggingface.co/papers/2604.14268": "2026-04-19",
+      "https://huggingface.co/papers/2604.15308": "2026-04-19",
+      "https://huggingface.co/papers/2604.14683": "2026-04-19",
+      "https://huggingface.co/papers/2604.14164": "2026-04-19",
       "https://huggingface.co/papers/2604.15284": "2026-04-18",
-      "https://huggingface.co/papers/2604.14228": "2026-04-18",
-      "https://huggingface.co/papers/2604.14531": "2026-04-18"
+      "https://huggingface.co/papers/2604.14228": "2026-04-19",
+      "https://huggingface.co/papers/2604.14531": "2026-04-19",
+      "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits": "2026-04-19",
+      "https://tokens.billchambers.me/leaderboard": "2026-04-19",
+      "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html": "2026-04-19",
+      "https://samhenri.gold/blog/20260418-claude-design/": "2026-04-19",
+      "https://isayeter.com/posts/digitalocean-to-hetzner-migration/": "2026-04-19",
+      "https://kdenlive.org/news/2026/state-2026/": "2026-04-19",
+      "https://en.wikipedia.org/wiki/Michael_O._Rabin": "2026-04-19",
+      "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns": "2026-04-19",
+      "https://huggingface.co/papers/2604.13226": "2026-04-19",
+      "https://huggingface.co/papers/2509.25843": "2026-04-19",
+      "https://huggingface.co/papers/2604.04514": "2026-04-19",
+      "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html": "2026-04-19",
+      "https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html": "2026-04-19",
+      "https://lindbakk.com/blog/introducing-brunost": "2026-04-19"
     }
   },
   "content_hashes": {
@@ -2343,6 +2357,28 @@
       "18. Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
       "19. TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
       "20. Credibility is Expensive"
+    ],
+    "2026-04-19": [
+      "一、NIST 科学家创造可发射任意波长激光的技术",
+      "二、Opus 4.6 与 Opus 4.7 匿名请求令牌对比分析",
+      "三、B-52 轰炸机星跟踪器中的机电角度计算机",
+      "四、Claude Design 的思考与感受",
+      "五、从 DigitalOcean 迁移到 Hetzner 实战",
+      "六、Kdenlive 2026 年度状态报告",
+      "七、传奇计算机科学家 Michael Rabin 逝世",
+      "八、HY-World 2.0：多模态世界模型",
+      "九、深入理解 Claude Code：AI Agent 系统的设计空间",
+      "十、RAD-2：生成器-判别器框架下的强化学习扩展",
+      "十一、伊朗战争押注：超过 10 亿美元的精准交易",
+      "十二、DR³-Eval：深度研究评估的新基准",
+      "十三、如何微调推理模型：师生协作框架",
+      "十四、KV Packet：LLM 的免重计算上下文无关 KV 缓存",
+      "十五、ASGuard：针对目标越狱攻击的激活缩放防护",
+      "十六、TRACER：基于 Trace 的 LLM 分类自适应成本高效路由",
+      "十七、SuperLocalMemory V3.3：零 LLM Agent 记忆系统",
+      "十八、Modern Common Lisp with FSet",
+      "十九、Ruby 路径方法性能优化实战",
+      "二十、BRUNOST：Nynorsk 编程语言"
     ]
   },
   "2026-02-01": [
