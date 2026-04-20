@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-19",
+    "date": "2026-04-20",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-19"
+      "last_run": "2026-04-20"
     }
   },
   "url_cache": {
@@ -729,7 +729,7 @@
       "https://huggingface.co/papers/2604.02947": "2026-04-07",
       "https://huggingface.co/papers/2604.02486": "2026-04-07",
       "https://huggingface.co/papers/2604.02368": "2026-04-07",
-      "https://fs.blog/brain-food/april-5-2026/": "2026-04-18",
+      "https://fs.blog/brain-food/april-5-2026/": "2026-04-20",
       "https://huggingface.co/papers/2603.25040": "2026-03-30",
       "https://huggingface.co/papers/2603.23516": "2026-03-30",
       "https://huggingface.co/papers/2603.24755": "2026-03-30",
@@ -1076,13 +1076,13 @@
       "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/": "2026-04-18",
       "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation": "2026-04-18",
       "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not": "2026-04-18",
-      "https://huggingface.co/papers/2604.14268": "2026-04-19",
-      "https://huggingface.co/papers/2604.15308": "2026-04-19",
-      "https://huggingface.co/papers/2604.14683": "2026-04-19",
-      "https://huggingface.co/papers/2604.14164": "2026-04-19",
-      "https://huggingface.co/papers/2604.15284": "2026-04-18",
-      "https://huggingface.co/papers/2604.14228": "2026-04-19",
-      "https://huggingface.co/papers/2604.14531": "2026-04-19",
+      "https://huggingface.co/papers/2604.14268": "2026-04-20",
+      "https://huggingface.co/papers/2604.15308": "2026-04-20",
+      "https://huggingface.co/papers/2604.14683": "2026-04-20",
+      "https://huggingface.co/papers/2604.14164": "2026-04-20",
+      "https://huggingface.co/papers/2604.15284": "2026-04-20",
+      "https://huggingface.co/papers/2604.14228": "2026-04-20",
+      "https://huggingface.co/papers/2604.14531": "2026-04-20",
       "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits": "2026-04-19",
       "https://tokens.billchambers.me/leaderboard": "2026-04-19",
       "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html": "2026-04-19",
@@ -1091,12 +1091,23 @@
       "https://kdenlive.org/news/2026/state-2026/": "2026-04-19",
       "https://en.wikipedia.org/wiki/Michael_O._Rabin": "2026-04-19",
       "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns": "2026-04-19",
-      "https://huggingface.co/papers/2604.13226": "2026-04-19",
+      "https://huggingface.co/papers/2604.13226": "2026-04-20",
       "https://huggingface.co/papers/2509.25843": "2026-04-19",
       "https://huggingface.co/papers/2604.04514": "2026-04-19",
       "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html": "2026-04-19",
       "https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html": "2026-04-19",
-      "https://lindbakk.com/blog/introducing-brunost": "2026-04-19"
+      "https://lindbakk.com/blog/introducing-brunost": "2026-04-19",
+      "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/": "2026-04-20",
+      "https://simonwillison.net/2026/Apr/18/opus-system-prompt/": "2026-04-20",
+      "https://archive.org/details/byte-magazine-1975-09": "2026-04-20",
+      "https://twitter.com/weezerOSINT/status/2045849358462222720": "2026-04-20",
+      "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years": "2026-04-20",
+      "https://madhadron.com/programming/seven_ur_languages.html": "2026-04-20",
+      "https://antithesis.com/blog/2026/skiptrees/": "2026-04-20",
+      "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/": "2026-04-20",
+      "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/": "2026-04-20",
+      "https://jamesclear.com/3-2-1/april-16-2026": "2026-04-20",
+      "https://nanopass.org/": "2026-04-20"
     }
   },
   "content_hashes": {
@@ -2379,6 +2390,28 @@
       "十八、Modern Common Lisp with FSet",
       "十九、Ruby 路径方法性能优化实战",
       "二十、BRUNOST：Nynorsk 编程语言"
+    ],
+    "2026-04-20": [
+      "一、Vercel 2026年4月安全事件",
+      "二、Claude Opus 4.6 与 4.7 系统提示词对比分析",
+      "三、BYTE 杂志完整档案库上线",
+      "四、Notion 严重隐私泄露：公开页面邮箱暴露",
+      "五、全球 RAM 短缺可能持续数年",
+      "六、七种编程\"元语言\"",
+      "七、Skiplists 实战指南",
+      "八、HY-World 2.0：多模态世界模型",
+      "九、DR³-Eval：深度研究评估基准",
+      "十、RAD-2：生成器-判别器框架下的强化学习扩展",
+      "十一、细粒度推理模型训练框架",
+      "十二、GlobalSplat：基于全局场景 Token 的 3D 高斯渲染",
+      "十三、Dive into Claude Code：AI Agent 系统设计空间",
+      "十四、KV Packet：无重计算的上下文无关 KV 缓存",
+      "十五、TRACER：LLM 分类的自适应成本高效路由",
+      "十六、C++26：反射、内存安全、新异步模型",
+      "十七、Blue Origin 新格林火箭复用成功但上级失败",
+      "十八、Credibility is Expensive（信誉昂贵）",
+      "十九、3-2-1：关于胜者思维、独立思考与停止追逐无效目标",
+      "二十、Nanopass 框架：清洁编译器创建语言"
     ]
   },
   "2026-02-01": [
