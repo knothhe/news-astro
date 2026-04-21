@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-20",
+    "date": "2026-04-21",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-20"
+      "last_run": "2026-04-21"
     }
   },
   "url_cache": {
@@ -1107,7 +1107,22 @@
       "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/": "2026-04-20",
       "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/": "2026-04-20",
       "https://jamesclear.com/3-2-1/april-16-2026": "2026-04-20",
-      "https://nanopass.org/": "2026-04-20"
+      "https://nanopass.org/": "2026-04-20",
+      "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/": "2026-04-21",
+      "https://awesomeagents.ai/news/github-fake-stars-investigation/": "2026-04-21",
+      "https://qwen.ai/blog?id=qwen3.6-max-preview": "2026-04-21",
+      "https://www.kimi.com/blog/kimi-k2-6": "2026-04-21",
+      "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/": "2026-04-21",
+      "https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/": "2026-04-21",
+      "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/": "2026-04-21",
+      "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8": "2026-04-21",
+      "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/": "2026-04-21",
+      "https://www.kimi.com/blog/kimi-vendor-verifier": "2026-04-21",
+      "https://github.com/ArcaneNibble/awawausb": "2026-04-21",
+      "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/": "2026-04-21",
+      "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/": "2026-04-21",
+      "https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/": "2026-04-21",
+      "https://words.filippo.io/128-bits/": "2026-04-21"
     }
   },
   "content_hashes": {
@@ -2412,6 +2427,23 @@
       "十八、Credibility is Expensive（信誉昂贵）",
       "十九、3-2-1：关于胜者思维、独立思考与停止追逐无效目标",
       "二十、Nanopass 框架：清洁编译器创建语言"
+    ],
+    "2026-04-21": [
+      "一、John Ternus 将成为 Apple 新任 CEO",
+      "二、GitHub 虚假 star 经济调查",
+      "三、Qwen3.6-Max-Preview：更智能、更锐利",
+      "四、Kimi K2.6：推进开源编码模型",
+      "五、欧盟将强制手机可更换电池",
+      "六、欧盟年龄验证应用被黑客 2 分钟破解",
+      "七、Deezer 称 44% 上传歌曲为 AI 生成",
+      "八、Atlassian 默认启用数据收集用于 AI 训练",
+      "九、ggsql：SQL 图形语法发布 alpha 版",
+      "十、Kimi 供应商验证器发布",
+      "十一、WebUSB 扩展登陆 Firefox",
+      "十二、OpenAI 广告合作伙伴基于\"提示相关性\"销售广告位",
+      "十三、AI Resistance：反 AI 浪潮分析",
+      "十四、F-35 为错误战争打造",
+      "十五、量子计算机不威胁 128 位对称密钥"
     ]
   },
   "2026-02-01": [
