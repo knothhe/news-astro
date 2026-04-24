@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-23",
+    "date": "2026-04-24",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-23"
+      "last_run": "2026-04-24"
     }
   },
   "url_cache": {
@@ -1160,7 +1160,27 @@
       "https://www.reuters.com/sports/ping-pong-robot-ace-makes-history-by-beating-top-level-human-players-2026-04-22/": "2026-04-23",
       "https://huggingface.co/papers/2604.19748": "2026-04-23",
       "https://martinfowler.com/fragments/2026-04-02.html": "2026-04-23",
-      "https://www.adriankrebs.ch/blog/design-slop/": "2026-04-23"
+      "https://www.adriankrebs.ch/blog/design-slop/": "2026-04-23",
+      "https://openai.com/index/introducing-gpt-5-5/": "2026-04-24",
+      "https://socket.dev/blog/bitwarden-cli-compromised": "2026-04-24",
+      "https://www.anthropic.com/engineering/april-23-postmortem": "2026-04-24",
+      "https://blog.meshcore.io/2026/04/23/the-split": "2026-04-24",
+      "https://crawshaw.io/blog/building-a-cloud": "2026-04-24",
+      "https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/": "2026-04-24",
+      "https://huggingface.co/papers/2604.20796": "2026-04-24",
+      "https://huggingface.co/papers/2604.20733": "2026-04-24",
+      "https://huggingface.co/papers/2604.19859": "2026-04-24",
+      "https://huggingface.co/papers/2604.15093": "2026-04-24",
+      "https://huggingface.co/papers/2604.13602": "2026-04-24",
+      "https://huggingface.co/papers/2604.20779": "2026-04-24",
+      "https://huggingface.co/papers/2604.16529": "2026-04-24",
+      "https://github.com/Infisical/agent-vault": "2026-04-24",
+      "https://simonomi.dev/blog/color-code-your-bytes/": "2026-04-24",
+      "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/": "2026-04-24",
+      "https://github.com/russellromney/honker": "2026-04-24",
+      "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html": "2026-04-24",
+      "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/": "2026-04-24",
+      "https://www.githubstatus.com/incidents/myrbk7jvvs6p": "2026-04-24"
     }
   },
   "content_hashes": {
@@ -2526,6 +2546,28 @@
       "十八、Tstars-Tryon 1.0：多样式服装的鲁棒真实虚拟试穿",
       "十九、Technical, Cognitive, and Intent Debt：技术债务的新维度",
       "二十、评分 Show HN 提交中的 AI 设计模式"
+    ],
+    "2026-04-24": [
+      "一、GPT-5.5 发布：OpenAI 推出新型号家族",
+      "二、Bitwarden CLI 被列入 Checkmarx 供应链攻击事件",
+      "三、Claude Code 质量报告后续：Anthropic 公布改进措施",
+      "四、MeshCore 团队因商标纠纷和 AI 生成代码分裂",
+      "五、构建云服务：一个技术人的实践分享",
+      "六、Palantir 员工开始反思公司角色",
+      "七、LLaDA2.0-Uni：扩散大语言模型统一多模态理解与生成",
+      "八、Near-Future Policy Optimization：策略优化新方法",
+      "九、DR-Venus：面向边缘规模深度研究的 AGI 智能体",
+      "十、OpenMobile：构建开源移动智能体",
+      "十一、Reward Hacking in Large Models",
+      "十二、SWE-chat：真实用户的编码智能体交互",
+      "十三、Scaling Test-Time Compute for Agentic Coding",
+      "十四、Agent Vault：开源智能体凭证代理",
+      "十五、Your hex editor should color-code bytes",
+      "十六、Arch Linux 可复现 Docker 镜像",
+      "十七、Honker：SQLite 的 PostgreSQL NOTIFY 语义",
+      "十八、WireGuard for Windows v1.0 发布",
+      "十九、法国政府机构确认数据泄露",
+      "二十、GitHub 多项服务事件"
     ]
   },
   "2026-02-01": [
