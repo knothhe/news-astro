@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-04-27",
+    "date": "2026-04-28",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-04-27"
+      "last_run": "2026-04-28"
     }
   },
   "url_cache": {
@@ -1212,7 +1212,7 @@
       "https://huggingface.co/papers/2604.21921": "2026-04-26",
       "https://huggingface.co/papers/2604.20987": "2026-04-27",
       "https://victortaelin.github.io/lambench/": "2026-04-26",
-      "https://jamesclear.com/3-2-1/april-23-2026": "2026-04-26",
+      "https://jamesclear.com/3-2-1/april-23-2026": "2026-04-28",
       "https://fabiensanglard.net/usbcheat/index.html": "2026-04-26",
       "https://coalton-lang.github.io/mine/": "2026-04-26",
       "https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes": "2026-04-26",
@@ -1231,7 +1231,26 @@
       "https://dillo-browser.org/release/3.3.0/": "2026-04-27",
       "https://github.com/sachitrafa/YourMemory": "2026-04-27",
       "https://thermodynamicsbook.com/": "2026-04-27",
-      "https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core": "2026-04-27"
+      "https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core": "2026-04-27",
+      "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai": "2026-04-28",
+      "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/": "2026-04-28",
+      "https://app.oravys.com/blog/mercor-breach-2026": "2026-04-28",
+      "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html": "2026-04-28",
+      "https://github.com/pgbackrest/pgbackrest": "2026-04-28",
+      "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher": "2026-04-28",
+      "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html": "2026-04-28",
+      "https://eclecticlight.co/2026/04/23/networking-changes-coming-in-macos-27/": "2026-04-28",
+      "https://huggingface.co/papers/2604.22748": "2026-04-28",
+      "https://zsnes.com/": "2026-04-28",
+      "https://quarkdown.com/": "2026-04-28",
+      "https://github.com/duane1024/l123": "2026-04-28",
+      "https://github.com/Hanqaqa/Easyduino": "2026-04-28",
+      "https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html": "2026-04-28",
+      "https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/": "2026-04-28",
+      "https://huggingface.co/papers/2604.22554": "2026-04-28",
+      "https://huggingface.co/papers/2604.21518": "2026-04-28",
+      "https://huggingface.co/papers/2604.18519": "2026-04-28",
+      "https://fs.blog/brain-food/april-26-2026/": "2026-04-28"
     }
   },
   "content_hashes": {
@@ -2673,6 +2692,28 @@
       "十八、AI 记忆的生物衰减模型（52% 回忆率）",
       "十九、免费工程热力学教科书上线",
       "二十、Rust 与 ESP-IDF 双核协同：bare-metal 与 RTOS 并行运行"
+    ],
+    "2026-04-28": [
+      "一、Microsoft 和 OpenAI 结束独家合作与收入分成协议",
+      "二、GitHub Copilot 将转向使用量计费模式",
+      "三、4TB 语音样本从 Mercor 的 4 万名 AI 承包商处被盗",
+      "四、中国阻止 Meta 收购 AI 初创公司 Manus",
+      "五、Pgbackrest 不再维护",
+      "六、FDA 批准首个遗传性听力损失基因疗法",
+      "七、\"为什么不用 Lean？\"",
+      "八、macOS 27 网络变化",
+      "九、Agentic World Modeling：基础、能力与超越",
+      "十、Super ZSNES：GPU 加速的 SNES 模拟器",
+      "十一、Quarkdown：带超级力量的 Markdown",
+      "十二、L123：现代终端电子表格",
+      "十三、Easyduino：KiCad 开源 PCB 开发板",
+      "十四、US 最高法院审查警方使用手机位置数据",
+      "十五、RF 工程复兴",
+      "十六、视频分析与生成：语义进度函数",
+      "十七、DiffNR：扩散增强的神经表示优化",
+      "十八、LLM 内在安全检测",
+      "十九、Farnam Street：财富不是一种区别",
+      "二十、James Clear：找到优秀的人、发挥优势、放下"
     ]
   },
   "2026-02-01": [
