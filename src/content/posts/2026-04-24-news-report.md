@@ -290,8 +290,7 @@ draft: false
 **要点**：
 
 1. 逐字节identical
-2. 安全审计加强
-3.供应链安全提升
+2. 安全审计加强3.供应链安全提升
 
 **来源**：[Antiz Blog](https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/)
 

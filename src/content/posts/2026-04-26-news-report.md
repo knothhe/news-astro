@@ -231,7 +231,7 @@ draft: false
 
 ##十三、Lambda Calculus Benchmark for AI
 
-**摘要**：Lambench 是一个用于评估 AI 系统 lambda  calculus 推理能力的基准测试。该基准涵盖了解析、简化和求值等多个维度。
+**摘要**：Lambench 是一个用于评估 AI 系统 lambda calculus 推理能力的基准测试。该基准涵盖了解析、简化和求值等多个维度。
 
 **要点**：
 
