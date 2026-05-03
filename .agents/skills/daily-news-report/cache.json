@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-05-02",
+    "date": "2026-05-03",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-05-02"
+      "last_run": "2026-05-03"
     }
   },
   "url_cache": {
@@ -1312,11 +1312,11 @@
       "https://education.ti.om/en/products/calculators/graphing-calculators/ti-84-evo": "2026-05-02",
       "https://huggingface.co/papers/date/2026-04-30": "2026-05-02",
       "https://github.com/darrylmorley/whatcable": "2026-05-02",
-      "https://huggingface.co/papers/2604.27711": "2026-05-02",
+      "https://huggingface.co/papers/2604.27711": "2026-05-03",
       "https://metin.nextc.og/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks. html": "2026-05-02",
       "https://fusion.adam.new/install": "2026-05-02",
       "https://github.com/microsoft/lib0xc": "2026-05-02",
-      "https://huggingface.co/papers/2604.28139": "2026-05-02",
+      "https://huggingface.co/papers/2604.28139": "2026-05-03",
       "https://www.wired.com/story/when-robots-have-their-chatgpt-": "2026-05-02",
       "https://huggingface.co/papers/2604.28-157": "2026-05-02",
       "https://github.com/whohas/whohas": "2026-05-02",
@@ -1325,7 +1325,25 @@
       "https://ews.kylemcdonald.net/": "2026-05-02",
       "https://www.newyorker.com/culture/annals-of-inquiry/its-": "2026-05-02",
       "https://huggingface.co/papers/2604.24-953": "2026-05-02",
-      "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/": "2026-05-02"
+      "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/": "2026-05-02",
+      "https://github.com/microsoft/vscode/pull/310226": "2026-05-03",
+      "https://nethack.org/v500/release.html": "2026-05-03",
+      "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions": "2026-05-03",
+      "https://code.videolan.org/videolan/dav2d": "2026-05-03",
+      "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/": "2026-05-03",
+      "https://www.bbc.com/news/articles/clypjx3rg2go": "2026-05-03",
+      "https://huggingface.co/papers/2604.24658": "2026-05-03",
+      "https://huggingface.co/papers/2604.24954": "2026-05-03",
+      "https://huggingface.co/papers/2604.28130": "2026-05-03",
+      "https://huggingface.co/papers/2604.28190": "2026-05-03",
+      "https://huggingface.co/papers/2604.27085": "2026-05-03",
+      "https://huggingface.co/papers/2604.28185": "2026-05-03",
+      "https://huggingface.co/papers/2604.27351": "2026-05-03",
+      "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/": "2026-05-03",
+      "https://donottrack.sh/": "2026-05-03",
+      "https://ladybird.org/newsletter/2026-04-30/": "2026-05-03",
+      "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/": "2026-05-03",
+      "https://github.com/federico-busato/Modern-CPP-Programming": "2026-05-03"
     }
   },
   "content_hashes": {
@@ -2877,6 +2895,28 @@
       "十八、Interacting with Robots：梦中学技能研究",
       "十九、ViPO：大规模视觉偏好优化",
       "二十、The Gay Jailbreak：安全研究案例"
+    ],
+    "2026-05-03": [
+      "一、VS Code 自动插入 Copilot Co-Authored-by 引发的争议",
+      "二、NetHack 5.0.0 发布：经典 Roguelike 游戏的重大更新",
+      "三、Noctua 风扇延迟发布：为什么黑色版本需要更长时间",
+      "四、Dav2d：VideoLAN 新一代视频编解码器",
+      "五、macOS 虚拟机性能深度分析",
+      "六、加州将对违规自动驾驶车辆开罚单",
+      "七、The Last Human-Written Paper：Agent 原生研究范式",
+      "八、Nemotron-3-Nano-Omni：NVIDIA 高效多模态模型",
+      "九、MoCapAnything V2：任意骨骼运动捕捉",
+      "十、Representation Fréchet Loss for Visual Generation",
+      "十一、Efficient Training on Multiple Consumer GPUs",
+      "十二、ExoActor：外视角视频生成",
+      "十三、Visual Generation in the New Era",
+      "十四、Heterogeneous Scientific Foundation Model",
+      "十五、Claw-Eval-Live：真实世界工作流基准",
+      "十六、Waymo 行李箱事件：自动驾驶的社交问题",
+      "十七、Do Not Track：隐私优先的浏览器项目",
+      "十八、Ladybird 浏览器四月更新",
+      "十九、Uber 司机变成传感器网格",
+      "二十、Modern C++ Programming 书籍更新"
     ]
   },
   "2026-02-01": [
