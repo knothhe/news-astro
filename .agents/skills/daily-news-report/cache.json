@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
   "last_run": {
-    "date": "2026-05-03",
+    "date": "2026-05-04",
     "items_published": 20,
     "generation_mode": "workflow"
   },
@@ -15,7 +15,7 @@
       "avg_quality_score": 4.1,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     },
     "hf_papers": {
       "total_fetches": 11,
@@ -24,7 +24,7 @@
       "avg_quality_score": 4.6,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     },
     "one_useful_thing": {
       "total_fetches": 4,
@@ -43,7 +43,7 @@
       "last_fetch": "2026-01-25",
       "last_success": "2026-01-23",
       "note": "Archive page, no new articles available",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     },
     "james_clear": {
       "total_fetches": 5,
@@ -61,7 +61,7 @@
       "avg_quality_score": 4.2,
       "last_fetch": "2026-03-21",
       "last_success": "2026-03-21",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     },
     "hackernoon_pm": {
       "total_fetches": 6,
@@ -70,7 +70,7 @@
       "avg_quality_score": 3.8,
       "last_fetch": "2026-02-04",
       "last_success": "2026-02-04",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     },
     "scotthyoung": {
       "total_fetches": 6,
@@ -79,7 +79,7 @@
       "avg_quality_score": 4.3,
       "last_fetch": "2026-01-29",
       "last_success": "2026-01-29",
-      "last_run": "2026-05-03"
+      "last_run": "2026-05-04"
     }
   },
   "url_cache": {
@@ -983,8 +983,8 @@
       "https://huggingface.co/papers/2604.07394": "2026-04-13",
       "https://paulgraham.com/field.html": "2026-04-30",
       "https://paulgraham.com/woke.html": "2026-04-13",
-      "https://hackernoon.com/the-ultimate-developers-guide-to-jira-success": "2026-04-13",
-      "https://www.scotthyoung.com/blog/2026/04/08/20-years/": "2026-04-13",
+      "https://hackernoon.com/the-ultimate-developers-guide-to-jira-success": "2026-05-04",
+      "https://www.scotthyoung.com/blog/2026/04/08/20-years/": "2026-05-04",
       "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/": "2026-04-14",
       "https://servo.org/blog/2026/04/13/servo-0.1.0-release/": "2026-04-14",
       "https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/": "2026-04-14",
@@ -1196,7 +1196,7 @@
       "https://papers/2604.20398": "2026-04-25",
       "https://papers/2604.21375": "2026-04-25",
       "https://github.com/browser-use/browser-harness": "2026-04-25",
-      "https://fs.blog/brain-food/april-19-2026/": "2026-04-26",
+      "https://fs.blog/brain-food/april-19-2026/": "2026-05-04",
       "https://github.com/delta-hq/cc-canary": "2026-04-25",
       "https://news.ycombinator.com/item?id=47895029": "2026-04-25",
       "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board": "2026-04-26",
@@ -1250,7 +1250,7 @@
       "https://huggingface.co/papers/2604.22554": "2026-04-28",
       "https://huggingface.co/papers/2604.21518": "2026-04-28",
       "https://huggingface.co/papers/2604.18519": "2026-04-28",
-      "https://fs.blog/brain-food/april-26-2026/": "2026-04-30",
+      "https://fs.blog/brain-food/april-26-2026/": "2026-05-04",
       "https://mitchellh.com/writing/ghostty-leaving-github": "2026-04-29",
       "https://keepandroidopen.org/en/": "2026-04-29",
       "https://github.com/localsend/localsend": "2026-04-29",
@@ -1316,7 +1316,7 @@
       "https://metin.nextc.og/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks. html": "2026-05-02",
       "https://fusion.adam.new/install": "2026-05-02",
       "https://github.com/microsoft/lib0xc": "2026-05-02",
-      "https://huggingface.co/papers/2604.28139": "2026-05-03",
+      "https://huggingface.co/papers/2604.28139": "2026-05-04",
       "https://www.wired.com/story/when-robots-have-their-chatgpt-": "2026-05-02",
       "https://huggingface.co/papers/2604.28-157": "2026-05-02",
       "https://github.com/whohas/whohas": "2026-05-02",
@@ -1332,18 +1332,30 @@
       "https://code.videolan.org/videolan/dav2d": "2026-05-03",
       "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/": "2026-05-03",
       "https://www.bbc.com/news/articles/clypjx3rg2go": "2026-05-03",
-      "https://huggingface.co/papers/2604.24658": "2026-05-03",
+      "https://huggingface.co/papers/2604.24658": "2026-05-04",
       "https://huggingface.co/papers/2604.24954": "2026-05-03",
       "https://huggingface.co/papers/2604.28130": "2026-05-03",
       "https://huggingface.co/papers/2604.28190": "2026-05-03",
       "https://huggingface.co/papers/2604.27085": "2026-05-03",
-      "https://huggingface.co/papers/2604.28185": "2026-05-03",
-      "https://huggingface.co/papers/2604.27351": "2026-05-03",
+      "https://huggingface.co/papers/2604.28185": "2026-05-04",
+      "https://huggingface.co/papers/2604.27351": "2026-05-04",
       "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/": "2026-05-03",
       "https://donottrack.sh/": "2026-05-03",
       "https://ladybird.org/newsletter/2026-04-30/": "2026-05-03",
       "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/": "2026-05-03",
-      "https://github.com/federico-busato/Modern-CPP-Programming": "2026-05-03"
+      "https://github.com/federico-busato/Modern-CPP-Programming": "2026-05-03",
+      "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses": "2026-05-04",
+      "https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/": "2026-05-04",
+      "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/": "2026-05-04",
+      "https://partyon.xyz/@nullagent/116499715071759135": "2026-05-04",
+      "https://github.com/aattaran/deepclaude": "2026-05-04",
+      "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks": "2026-05-04",
+      "https://hackernoon.com/the-moscow-method-key-to-agile-product-management": "2026-05-04",
+      "https://jamesclear.com/3-2-1/april-30-2026": "2026-05-04",
+      "https://www.scotthyoung.com/blog/2026/04/23/motivate-yourself-to-do-anything/": "2026-05-04",
+      "https://github.com/earthtojake/text-to-cad": "2026-05-04",
+      "https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/": "2026-05-04",
+      "https://www.youtube.com/watch?v=8jNQDcpHc68": "2026-05-04"
     }
   },
   "content_hashes": {
@@ -2917,6 +2929,28 @@
       "十八、Ladybird 浏览器四月更新",
       "十九、Uber 司机变成传感器网格",
       "二十、Modern C++ Programming 书籍更新"
+    ],
+    "2026-05-04": [
+      "一、OpenAI o1 在哈佛急诊试验中正确诊断 67% 患者 vs 医生 50-55%",
+      "二、Mercedes-Benz 承诺回归物理按钮",
+      "三、为什么 TUI（文本用户界面）回归",
+      "四、BYOMesh：新型 LoRa 网状无线电提供 100 倍带宽",
+      "五、DeepClaude：使用 DeepSeek V4 Pro 的 Claude Code 代理循环，成本降低 17 倍",
+      "六、Denuvo 在所有单玩家游戏中被破解",
+      "七、异构科学Foundation模型协作",
+      "八、视觉生成的新时代：从原子映射到Agentic世界建模",
+      "九、最后一篇人类撰写的论文：Agent原生研究产物",
+      "十、Claw-Eval-Live：实时Agent基准测试",
+      "十一、MoSCoW 方法：Agile产品管理的关键",
+      "十二、Jira 成功指南",
+      "十三、Farnam Street：财富不是特权",
+      "十四、Farnam Street：重要的是心态",
+      "十五、James Clear：关于调整、批评和改进的秘密",
+      "十六、Scott Young：写作 20 年的反思",
+      "十七、Scott Young：如何激励自己做任何事",
+      "十八、文本到 CAD 的开源实现",
+      "十九、金属Gear Solid 2 源代码泄露",
+      "二十、Apple Lisa 在 FPGA 中的重建"
     ]
   },
   "2026-02-01": [
